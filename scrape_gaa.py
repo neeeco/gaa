@@ -69,3 +69,9 @@ with open('fixtures.csv', 'w', newline='') as f:
     dict_writer = csv.DictWriter(f, keys)
     dict_writer.writeheader()
     dict_writer.writerows(fixtures_data)
+
+
+import json
+
+with open("fixtures.json", "w") as f:
+    json.dump(fixtures_data, f)
