@@ -14,6 +14,8 @@ with sync_playwright() as p:
     html = page.content()
     browser.close()
 
+    # hello
+
 # Parse HTML with BeautifulSoup
 soup = BeautifulSoup(html, "html.parser")
 
@@ -26,3 +28,44 @@ print(f"Found {len(fixtures)} fixtures")
 
 for f in fixtures[:5]:  # print first 5 fixtures
     print(f.get_text(separator=" | ", strip=True))
+
+for f in fixtures[:5]:
+    text = f.get_text(separator=" | ", strip=True)
+    parts = text.split("|")
+    # This is just an example — adapt to the actual format
+    print({
+        "team_1": parts[0].strip(),
+        "score_1": parts[1].strip(),
+        "team_2": parts[-1].strip(),
+        "venue": next((p.strip() for p in parts if "Venue:" in p), ""),
+        "referee": next((p.strip() for p in parts if "Referee:" in p), ""),
+    })
+
+fixtures_data = []
+
+for f in fixtures:
+    text = f.get_text(separator=" | ", strip=True)
+    parts = text.split("|")
+    fixture = {
+        "team_1": parts[0].strip(),
+        "score_1": parts[1].strip(),
+        "team_2": parts[-1].strip(),
+        "venue": next((p.strip() for p in parts if "Venue:" in p), ""),
+        "referee": next((p.strip() for p in parts if "Referee:" in p), ""),
+    }
+    fixtures_data.append(fixture)
+
+import json
+
+# your scraping and parsing code here, then:
+
+print(json.dumps(fixtures_data, indent=2))
+
+import csv
+
+keys = fixtures_data[0].keys()
+
+with open('fixtures.csv', 'w', newline='') as f:
+    dict_writer = csv.DictWriter(f, keys)
+    dict_writer.writeheader()
+    dict_writer.writerows(fixtures_data)
