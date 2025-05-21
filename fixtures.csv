@@ -1,108 +1,78 @@
-team_1,score_1,team_2,venue,referee
-Waterford,0,Limerick,"Venue: Walsh Park, Waterford",Referee: Colm Lyons
-Down,1,Tyrone,"Venue: Kingspan Breffni, Cavan",Referee: Kevin Brady
-Armagh,2,Monaghan,"Venue: Kingspan Breffni, Cavan",Referee: Michael Connolly
-Mayo,1,Galway,"Venue: Hastings Insurance MacHale Park, Castlebar",Referee: Paddy Neilan
-Kerry,4,Clare,Venue: Fitzgerald Stadium,Referee: Noel Mooney
-Sligo,7,London,Venue: Connacht GAA Centre,Referee: Brendan Healy
-Armagh,0,Donegal,"Venue: St. Tiernach's Park, Clones",Referee: Brendan Cawley
-Galway,1,Wexford,Venue: Pearse Stadium,Referee: Thomas Walsh
-Antrim,0,Dublin,"Venue: Corrigan Park, Belfast",Referee: Liam Gordon
-Kilkenny,4,Offaly,Venue: UPMC Nowlan Park,Referee: Colm McDonald
-Clare,2,Tipperary,"Venue: Zimmer Biomet Páirc Chíosóg, Ennis",Referee: James Owens
-Donegal,1,London,Venue: Letterkenny,Referee: James Judge
-Tyrone,0,Derry,"Venue: Eoghan Ruadh, Dungannon",Referee: Peter Owens
-Wicklow,3,Meath,"Venue: Echelon Park, Aughrim",Referee: Padraig Dunne
-Armagh,2,Louth,"Venue: BOX-IT Athletic Grounds, Armagh",Referee: Kevin Parke
-Mayo,1,Sligo,"Venue: Hastings Insurance MacHale Park, Castlebar",Referee: Matthew Redmond
-Lancashire,2,Monaghan,Venue: Abbottstown - GAA Centre of Excellence,Referee: Nicholas Barry
-Longford,3,Cavan,Venue: Glennon Brothers Pearse Park,Referee: Conor Doyle
-Waterford,2,Kilkenny,Venue: Lemybrien,Referee: Brian Crowley
-Wexford,1,Laois,Venue: McCauley Park Bellefield,Referee: Lar Murphy
-Limerick,0,Wicklow,Venue: Mick Neville Park Rathkeale,Referee: Gary Twomey
-Carlow,1,Kildare,Venue: Netwatch Cullen Park,Referee: Eamonn Furlong
-Westmeath,2,Down,"Venue: TEG Cusack Park, Mullingar",Referee: Colum Cunning
-Limerick,0,London,Venue: Newcastle West,Referee: Seamus Mulhare
-Offaly,2,Wicklow,Venue: Glenisk O'Connor Park,Referee: Niall Cullen
-Laois,0,Waterford,"Venue: Laois Hire O'Moore Park, Portlaoise",Referee: Derek O Mahoney
-Kildare,0,Leitrim,Venue: Cedral St Conleth's Newbridge,Referee: Liam Devenney
-Wexford,2,Longford,Venue: Chadwicks Wexford Park,Referee: Brendan Griffin
-Meath,1,Louth,Venue: Páirc an Chrócaigh,Referee: Martin McNally
-Roscommon,4,Fermanagh,"Venue: King & Moffatt Dr Hyde Park, Roscommon",Referee: James Clarke
-Warwickshire,2,Leitrim,"Venue: Páirc na hÉireann, Birmingham",Referee: Aidan Mc Aleer
-Kerry,0,Tyrone,"Venue: Laois Hire O'Moore Park, Portlaoise",Referee: Barry Judge
-Limerick,0,Monaghan,Venue: Moorefield,Referee: Christopher Ryan
-Fermanagh,0,Longford,"Venue: Shamrock Park, Roslea",Referee: Neil Mc Geown
-Laois,5,Kerry,"Venue: Laois Hire O'Moore Park, Portlaoise",Referee: Brian Keon
-Sligo,2,Tipperary,Venue: Tubbercurry,Referee: Sean Hurson
-Fermanagh,2,Carlow,"Venue: Brewster Park, Enniskillen",Referee: Barry Cassidy
-Westmeath,4,Antrim,"Venue: TEG Cusack Park, Mullingar",Referee: Thomas Murphy
-Leitrim,0,Westmeath,"Venue: King & Moffatt Dr Hyde Park, Roscommon",Referee: Diarmuid Boylan
-Mayo,0,Louth,Venue: Glennon Brothers Pearse Park,Referee: Conor Dourneen
-Meath,2,Galway,"Venue: Páirc Tailteann, Navan",Referee: Margaret Farrelly
-Kerry,3,Roscommon,Venue: Fitzgerald Stadium,Referee: David Coldrick
-Galway,2,Dublin,Venue: Pearse Stadium,Referee: David Gough
-Galway,6,Antrim,Venue: Pearse Stadium,Referee: Thomas Gleeson
-Wexford,2,Offaly,Venue: Chadwicks Wexford Park,Referee: Shane Hynes
-Derry,2,Wicklow,Venue: Celtic Park,Referee: Matthew Farrell
-Meath,3,Donegal,Venue: Trim,Referee: Conor Doyle
-London,4,Tyrone,"Venue: McGovern Park, Ruislip",Referee: Kevin Parke
-Fermanagh,1,Mayo,"Venue: Brewster Park, Enniskillen",Referee: Ciaran Mc Closkey
-Sligo,3,Armagh,Venue: Kilcoyne Park,Referee: James Judge
-Louth,0,Roscommon,"Venue: Páirc Naomh Bríd, Dowdallshill",Referee: Matthew Redmond
-Warwickshire,4,Lancashire,"Venue: Páirc na hÉireann, Birmingham",Referee: James Clarke
-Monaghan,2,Longford,"Venue: Grattan Park, Inniskeen",Referee: Aidan Mc Aleer
-Cavan,1,Leitrim,"Venue: Kingspan Breffni, Cavan",Referee: Kevin Brady
-Longford,3,Carlow,Venue: Glennon Brothers Pearse Park,Referee: Aaron Clogher
-Laois,3,Antrim,Venue: O'Raghallaighs/St Nicholas,Referee: Cathal Sweeney
-Wicklow,3,Waterford,Venue: Echelon COE Ballinakill,Referee: John Hickey
-Derry,3,Tipperary,Venue: Stamullen,Referee: Patrick Coyle
-Leitrim,1,Down,Venue: Avant Money Páirc Seán Mac Diarmada,Referee: Ronan Hynes
-Westmeath,0,Armagh,Venue: Kinnegad,Referee: Eamon O Connor
-Down,2,Kerry,Venue: Ballycran,Referee: Chris Mooney
-Westmeath,4,Carlow,"Venue: TEG Cusack Park, Mullingar",Referee: James Owens
-Waterford,1,Offaly,"Venue: Walsh Park, Waterford",Referee: Conor Lane
-Wicklow,0,Laois,"Venue: Echelon Park, Aughrim",Referee: Fergal Kelly
-Tipperary,1,Kildare,Venue: Clonmel,Referee: Jerome Henry
-Antrim,1,Limerick,"Venue: Corrigan Park, Belfast",Referee: Kieran Eannetta
-Clare,1,Down,"Venue: Zimmer Biomet Páirc Chíosóg, Ennis",Referee: Paddy Neilan
-Mayo,1,Cavan,"Venue: Hastings Insurance MacHale Park, Castlebar",Referee: Paul Faloon
-Kilkenny,5,Dublin,Venue: UPMC Nowlan Park,Referee: Michael Kennedy
-Tipperary,1,Waterford,"Venue: FBD Semple Stadium, Thurles",Referee: Sean Stack
-Limerick,3,Cork,Venue: TUS Gaelic Grounds,Referee: Liam Gordon
-Sligo,2,Clare,Venue: Kilcoyne Park,Referee: John Glavey
-Laois,1,Kildare,"Venue: Laois Hire O'Moore Park, Portlaoise",Referee: Niall Malone
-Leitrim,1,Sligo,Venue: Avant Money Páirc Seán Mac Diarmada,Referee: James Molloy
-London,1,Westmeath,"Venue: McGovern Park, Ruislip",Referee: Barry Tiernan
-Carlow,2,Wexford,Venue: Netwatch Cullen Park,Referee: David Murnane
-Longford,0,Fermanagh,Venue: Glennon Brothers Pearse Park,Referee: Joe Mc Quillan
-Monaghan,19:30,Westmeath,"Venue: Kingspan Breffni, Cavan",Referee: Pat Clarke
-Meath,15:00,Cork,"Venue: Páirc Tailteann, Navan",Referee: Noel Mooney
-Louth,16:45,Monaghan,Venue: Cedral St Conleth's Newbridge,Referee: Brendan Cawley
-Armagh,17:00,Derry,"Venue: BOX-IT Athletic Grounds, Armagh",Referee: Sean Hurson
-Donegal,19:00,Tyrone,Venue: Ballybofey,Referee: Martin McNally
-Monaghan,-,New York,"Venue: TEG Cusack Park, Mullingar",Referee: Alan Tierney
-Carlow,14:00,Laois,Venue: Netwatch Cullen Park,Referee: Caymon Flynn
-Kildare,14:00,Down,Venue: Cedral St Conleth's Newbridge,Referee: Brian Keon
-Kerry,14:00,Westmeath,Venue: Austin Stack Park,Referee: Niall Malone
-Offaly,14:00,Antrim,Venue: Glenisk O'Connor Park,Referee: Michael Kennedy
-Dublin,14:00,Galway,Venue: Parnell Park,Referee: Colm Lyons
-Wexford,14:00,Kilkenny,Venue: Chadwicks Wexford Park,Referee: Sean Stack
-Cork,16:00,Waterford,"Venue: SuperValu Páirc Uí Chaoimh, Cork",Referee: Johnny Murphy
-Limerick,16:00,Clare,Venue: TUS Gaelic Grounds,Referee: Thomas Walsh
-Roscommon,-,Meath,"Venue: King & Moffatt Dr Hyde Park, Roscommon",
-Cork,16:45,Kerry,"Venue: SuperValu Páirc Uí Chaoimh, Cork",
-Down,17:30,Louth,"Venue: Páirc Esler, Newry",
-Tyrone,19:00,Mayo,"Venue: O'Neills Healy Park, Omagh",
-Derry,Played Between,London,,
-Mayo,Played Between,2nd Placed Team,,
-Cavan,Played Between,Semi-Final Winner,,
-Leinster,Played Between,Tipperary,,
-Carlow,Played Between,Longford,,
-Fermanagh,Played Between,Wexford,,
-Antrim,Played Between,London,,
-Westmeath,Played Between,Limerick,,
-Wicklow,Played Between,Waterford,,
-Offaly,Played Between,Laois,,
-Leitrim,Played Between,Tipperary,,
-Kildare,Played Between,Sligo,,
+team_1,goals_1,points_1,team_2,goals_2,points_2,venue,referee
+Waterford,0,22,Limerick,0,28,"Venue: Walsh Park, Waterford",Referee: Colm Lyons
+Down,1,22,Tyrone,4,11,"Venue: Kingspan Breffni, Cavan",Referee: Kevin Brady
+Armagh,2,21,Monaghan,1,10,"Venue: Kingspan Breffni, Cavan",Referee: Michael Connolly
+Mayo,1,15,Galway,1,17,"Venue: Hastings Insurance MacHale Park, Castlebar",Referee: Paddy Neilan
+Kerry,4,20,Clare,0,21,Venue: Fitzgerald Stadium,Referee: Noel Mooney
+Sligo,7,21,London,1,7,Venue: Connacht GAA Centre,Referee: Brendan Healy
+Armagh,0,28,Donegal,2,23,"Venue: St. Tiernach's Park, Clones",Referee: Brendan Cawley
+Galway,1,29,Wexford,2,16,Venue: Pearse Stadium,Referee: Thomas Walsh
+Antrim,0,19,Dublin,3,25,"Venue: Corrigan Park, Belfast",Referee: Liam Gordon
+Kilkenny,4,25,Offaly,2,16,Venue: UPMC Nowlan Park,Referee: Colm McDonald
+Clare,2,21,Tipperary,4,18,"Venue: Zimmer Biomet Páirc Chíosóg, Ennis",Referee: James Owens
+Donegal,1,15,London,2,19,Venue: Letterkenny,Referee: James Judge
+Tyrone,0,10,Derry,1,30,"Venue: Eoghan Ruadh, Dungannon",Referee: Peter Owens
+Wicklow,3,17,Meath,0,16,"Venue: Echelon Park, Aughrim",Referee: Padraig Dunne
+Armagh,2,15,Louth,0,19,"Venue: BOX-IT Athletic Grounds, Armagh",Referee: Kevin Parke
+Mayo,1,32,Sligo,1,17,"Venue: Hastings Insurance MacHale Park, Castlebar",Referee: Matthew Redmond
+Lancashire,2,14,Monaghan,4,15,Venue: Abbottstown - GAA Centre of Excellence,Referee: Nicholas Barry
+Longford,3,17,Cavan,3,29,Venue: Glennon Brothers Pearse Park,Referee: Conor Doyle
+Waterford,2,18,Kilkenny,0,8,Venue: Lemybrien,Referee: Brian Crowley
+Wexford,1,10,Laois,2,14,Venue: McCauley Park Bellefield,Referee: Lar Murphy
+Limerick,0,7,Wicklow,3,11,Venue: Mick Neville Park Rathkeale,Referee: Gary Twomey
+Carlow,1,20,Kildare,2,23,Venue: Netwatch Cullen Park,Referee: Eamonn Furlong
+Westmeath,2,24,Down,0,20,"Venue: TEG Cusack Park, Mullingar",Referee: Colum Cunning
+Limerick,0,25,London,1,15,Venue: Newcastle West,Referee: Seamus Mulhare
+Offaly,2,13,Wicklow,0,11,Venue: Glenisk O'Connor Park,Referee: Niall Cullen
+Laois,0,28,Waterford,1,16,"Venue: Laois Hire O'Moore Park, Portlaoise",Referee: Derek O Mahoney
+Kildare,0,36,Leitrim,0,11,Venue: Cedral St Conleth's Newbridge,Referee: Liam Devenney
+Wexford,2,24,Longford,1,18,Venue: Chadwicks Wexford Park,Referee: Brendan Griffin
+Meath,1,18,Louth,3,14,Venue: Páirc an Chrócaigh,Referee: Martin McNally
+Roscommon,4,27,Fermanagh,0,22,"Venue: King & Moffatt Dr Hyde Park, Roscommon",Referee: James Clarke
+Warwickshire,2,17,Leitrim,0,18,"Venue: Páirc na hÉireann, Birmingham",Referee: Aidan Mc Aleer
+Kerry,0,14,Tyrone,2,14,"Venue: Laois Hire O'Moore Park, Portlaoise",Referee: Barry Judge
+Limerick,0,24,Monaghan,3,17,Venue: Moorefield,Referee: Christopher Ryan
+Fermanagh,0,11,Longford,1,10,"Venue: Shamrock Park, Roslea",Referee: Neil Mc Geown
+Laois,5,28,Kerry,1,21,"Venue: Laois Hire O'Moore Park, Portlaoise",Referee: Brian Keon
+Sligo,2,15,Tipperary,2,10,Venue: Tubbercurry,Referee: Sean Hurson
+Westmeath,4,24,Antrim,1,17,"Venue: TEG Cusack Park, Mullingar",Referee: Thomas Murphy
+Fermanagh,2,18,Carlow,3,18,"Venue: Brewster Park, Enniskillen",Referee: Barry Cassidy
+Leitrim,0,17,Westmeath,3,20,"Venue: King & Moffatt Dr Hyde Park, Roscommon",Referee: Diarmuid Boylan
+Mayo,0,17,Louth,2,12,Venue: Glennon Brothers Pearse Park,Referee: Conor Dourneen
+Meath,2,17,Galway,2,16,"Venue: Páirc Tailteann, Navan",Referee: Margaret Farrelly
+Kerry,3,18,Roscommon,0,17,Venue: Fitzgerald Stadium,Referee: David Coldrick
+Galway,2,14,Dublin,1,18,Venue: Pearse Stadium,Referee: David Gough
+Galway,6,27,Antrim,1,14,Venue: Pearse Stadium,Referee: Thomas Gleeson
+Wexford,2,17,Offaly,1,17,Venue: Chadwicks Wexford Park,Referee: Shane Hynes
+Derry,2,30,Wicklow,1,13,Venue: Celtic Park,Referee: Matthew Farrell
+Meath,3,14,Donegal,0,28,Venue: Trim,Referee: Conor Doyle
+London,4,20,Tyrone,1,13,"Venue: McGovern Park, Ruislip",Referee: Kevin Parke
+Fermanagh,1,22,Mayo,3,16,"Venue: Brewster Park, Enniskillen",Referee: Ciaran Mc Closkey
+Sligo,3,13,Armagh,0,23,Venue: Kilcoyne Park,Referee: James Judge
+Louth,0,20,Roscommon,4,17,"Venue: Páirc Naomh Bríd, Dowdallshill",Referee: Matthew Redmond
+Warwickshire,4,13,Lancashire,0,26,"Venue: Páirc na hÉireann, Birmingham",Referee: James Clarke
+Monaghan,2,20,Longford,2,20,"Venue: Grattan Park, Inniskeen",Referee: Aidan Mc Aleer
+Cavan,1,10,Leitrim,2,15,"Venue: Kingspan Breffni, Cavan",Referee: Kevin Brady
+Longford,3,18,Carlow,2,19,Venue: Glennon Brothers Pearse Park,Referee: Aaron Clogher
+Laois,3,20,Antrim,0,15,Venue: O'Raghallaighs/St Nicholas,Referee: Cathal Sweeney
+Wicklow,3,13,Waterford,1,3,Venue: Echelon COE Ballinakill,Referee: John Hickey
+Derry,3,13,Tipperary,0,16,Venue: Stamullen,Referee: Patrick Coyle
+Leitrim,1,16,Down,0,19,Venue: Avant Money Páirc Seán Mac Diarmada,Referee: Ronan Hynes
+Westmeath,0,8,Armagh,2,17,Venue: Kinnegad,Referee: Eamon O Connor
+Down,2,26,Kerry,2,19,Venue: Ballycran,Referee: Chris Mooney
+Westmeath,4,22,Carlow,7,23,"Venue: TEG Cusack Park, Mullingar",Referee: James Owens
+Waterford,1,13,Offaly,1,18,"Venue: Walsh Park, Waterford",Referee: Conor Lane
+Wicklow,0,21,Laois,0,16,"Venue: Echelon Park, Aughrim",Referee: Fergal Kelly
+Tipperary,1,11,Kildare,3,19,Venue: Clonmel,Referee: Jerome Henry
+Antrim,1,10,Limerick,1,18,"Venue: Corrigan Park, Belfast",Referee: Kieran Eannetta
+Clare,1,16,Down,3,27,"Venue: Zimmer Biomet Páirc Chíosóg, Ennis",Referee: Paddy Neilan
+Mayo,1,14,Cavan,1,17,"Venue: Hastings Insurance MacHale Park, Castlebar",Referee: Paul Faloon
+Kilkenny,5,19,Dublin,3,21,Venue: UPMC Nowlan Park,Referee: Michael Kennedy
+Tipperary,1,30,Waterford,1,21,"Venue: FBD Semple Stadium, Thurles",Referee: Sean Stack
+Limerick,3,26,Cork,1,16,Venue: TUS Gaelic Grounds,Referee: Liam Gordon
+Sligo,2,10,Clare,1,6,Venue: Kilcoyne Park,Referee: John Glavey
+Laois,1,18,Kildare,4,20,"Venue: Laois Hire O'Moore Park, Portlaoise",Referee: Niall Malone
+Leitrim,1,18,Sligo,2,19,Venue: Avant Money Páirc Seán Mac Diarmada,Referee: James Molloy
+London,1,10,Westmeath,0,26,"Venue: McGovern Park, Ruislip",Referee: Barry Tiernan
+Carlow,2,16,Wexford,1,19,Venue: Netwatch Cullen Park,Referee: David Murnane
+Longford,0,7,Fermanagh,2,19,Venue: Glennon Brothers Pearse Park,Referee: Joe Mc Quillan

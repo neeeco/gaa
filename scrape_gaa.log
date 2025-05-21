@@ -1,0 +1,823 @@
+Page title: GAA.ie - GAA Match Video and Highlights, Fixtures and Results, Latest News
+Found 111 fixtures
+Waterford | 0 | - | 22 | 0 | - | 28 | Venue: Walsh Park, Waterford | Referee: Colm Lyons | Limerick
+Down | 1 | - | 22 | 4 | - | 11 | Venue: Kingspan Breffni, Cavan | Referee: Kevin Brady | Tyrone
+Armagh | 2 | - | 21 | 1 | - | 10 | Venue: Kingspan Breffni, Cavan | Referee: Michael Connolly | Monaghan
+Mayo | 1 | - | 15 | 1 | - | 17 | Venue: Hastings Insurance MacHale Park, Castlebar | Referee: Paddy Neilan | Galway
+Kerry | 4 | - | 20 | 0 | - | 21 | Venue: Fitzgerald Stadium | Referee: Noel Mooney | Clare
+['Waterford ', ' 0 ', ' - ', ' 22 ', ' 0 ', ' - ', ' 28 ', ' Venue: Walsh Park, Waterford ', ' Referee: Colm Lyons ', ' Limerick']
+{'team_1': 'Waterford', 'score_1': '0', 'team_2': 'Limerick', 'venue': 'Venue: Walsh Park, Waterford', 'referee': 'Referee: Colm Lyons'}
+['Down ', ' 1 ', ' - ', ' 22 ', ' 4 ', ' - ', ' 11 ', ' Venue: Kingspan Breffni, Cavan ', ' Referee: Kevin Brady ', ' Tyrone']
+{'team_1': 'Down', 'score_1': '1', 'team_2': 'Tyrone', 'venue': 'Venue: Kingspan Breffni, Cavan', 'referee': 'Referee: Kevin Brady'}
+['Armagh ', ' 2 ', ' - ', ' 21 ', ' 1 ', ' - ', ' 10 ', ' Venue: Kingspan Breffni, Cavan ', ' Referee: Michael Connolly ', ' Monaghan']
+{'team_1': 'Armagh', 'score_1': '2', 'team_2': 'Monaghan', 'venue': 'Venue: Kingspan Breffni, Cavan', 'referee': 'Referee: Michael Connolly'}
+['Mayo ', ' 1 ', ' - ', ' 15 ', ' 1 ', ' - ', ' 17 ', ' Venue: Hastings Insurance MacHale Park, Castlebar ', ' Referee: Paddy Neilan ', ' Galway']
+{'team_1': 'Mayo', 'score_1': '1', 'team_2': 'Galway', 'venue': 'Venue: Hastings Insurance MacHale Park, Castlebar', 'referee': 'Referee: Paddy Neilan'}
+['Kerry ', ' 4 ', ' - ', ' 20 ', ' 0 ', ' - ', ' 21 ', ' Venue: Fitzgerald Stadium ', ' Referee: Noel Mooney ', ' Clare']
+{'team_1': 'Kerry', 'score_1': '4', 'team_2': 'Clare', 'venue': 'Venue: Fitzgerald Stadium', 'referee': 'Referee: Noel Mooney'}
+Skipping fixture due to unexpected format: ['Monaghan ', ' 19:30 ', ' Venue: Kingspan Breffni, Cavan ', ' Referee: Pat Clarke ', ' Westmeath']
+Skipping fixture due to unexpected format: ['Meath ', ' 15:00 ', ' Venue: Páirc Tailteann, Navan ', ' Referee: Noel Mooney ', ' Cork']
+Skipping fixture due to unexpected format: ['Louth ', ' 16:45 ', " Venue: Cedral St Conleth's Newbridge ", ' Referee: Brendan Cawley ', ' Monaghan']
+Skipping fixture due to unexpected format: ['Armagh ', ' 17:00 ', ' Venue: BOX-IT Athletic Grounds, Armagh ', ' Referee: Sean Hurson ', ' Derry']
+Skipping fixture due to unexpected format: ['Donegal ', ' 19:00 ', ' Venue: Ballybofey ', ' Referee: Martin McNally ', ' Tyrone']
+Skipping fixture due to unexpected format: ['Monaghan ', ' 13:00 ', ' Venue: TEG Cusack Park, Mullingar ', ' Referee: Alan Tierney ', ' New York']
+Skipping fixture due to unexpected format: ['Clare ', ' 14:00 ', ' Venue: FBD Semple Stadium, Thurles ', ' Dublin']
+Skipping fixture due to unexpected format: ['Wexford ', ' 16:00 ', ' Venue: FBD Semple Stadium, Thurles ', ' Limerick']
+Skipping fixture due to unexpected format: ['Monaghan ', ' 11:30 ', ' Venue: Carrickmacross ', ' Meath']
+Skipping fixture due to unexpected format: ['Derry ', ' 12:00 ', ' Venue: Celtic Park ', ' Donegal']
+Skipping fixture due to unexpected format: ['Armagh ', ' 12:00 ', ' Venue: Crossmaglen ', ' Dublin']
+Skipping fixture due to unexpected format: ['Carlow ', ' 14:00 ', ' Venue: Netwatch Cullen Park ', ' Referee: Caymon Flynn ', ' Laois']
+Skipping fixture due to unexpected format: ['Kildare ', ' 14:00 ', " Venue: Cedral St Conleth's Newbridge ", ' Referee: Brian Keon ', ' Down']
+Skipping fixture due to unexpected format: ['Kerry ', ' 14:00 ', ' Venue: Austin Stack Park ', ' Referee: Niall Malone ', ' Westmeath']
+Skipping fixture due to unexpected format: ['Offaly ', ' 14:00 ', " Venue: Glenisk O'Connor Park ", ' Referee: Michael Kennedy ', ' Antrim']
+Skipping fixture due to unexpected format: ['Dublin ', ' 14:00 ', ' Venue: Parnell Park ', ' Referee: Colm Lyons ', ' Galway']
+Skipping fixture due to unexpected format: ['Wexford ', ' 14:00 ', ' Venue: Chadwicks Wexford Park ', ' Referee: Sean Stack ', ' Kilkenny']
+Skipping fixture due to unexpected format: ['Cork ', ' 16:00 ', ' Venue: SuperValu Páirc Uí Chaoimh, Cork ', ' Referee: Johnny Murphy ', ' Waterford']
+Skipping fixture due to unexpected format: ['Limerick ', ' 16:00 ', ' Venue: TUS Gaelic Grounds ', ' Referee: Thomas Walsh ', ' Clare']
+Skipping fixture due to unexpected format: ['Kildare ', ' 12:00 ', ' Venue: Manguard Park, Hawkfield, Kildare ', ' Leitrim']
+Skipping fixture due to unexpected format: ['Longford ', ' 14:00 ', ' Venue: Annaduff ', ' Sligo']
+Skipping fixture due to unexpected format: ['Wicklow ', ' 15:00 ', ' Venue: Fenagh Netwatch Training Centre ', ' Laois']
+Skipping fixture due to unexpected format: ['Louth ', ' 19:30 ', ' Venue: BOX-IT Athletic Grounds, Armagh ', ' Tyrone']
+Skipping fixture due to unexpected format: ['Cork ', ' 16:45 ', ' Venue: SuperValu Páirc Uí Chaoimh, Cork ', ' Kerry']
+Skipping fixture due to unexpected format: ['Roscommon ', ' 18:00 ', ' Venue: King & Moffatt Dr Hyde Park, Roscommon ', ' Meath']
+Skipping fixture due to unexpected format: ['Down ', ' 17:30 ', ' Venue: Páirc Esler, Newry ', ' Louth']
+Skipping fixture due to unexpected format: ['Tyrone ', ' 19:00 ', " Venue: O'Neills Healy Park, Omagh ", ' Mayo']
+Skipping fixture due to unexpected format: ['Derry ', ' 17:00 ', ' Venue: Páirc an Chrócaigh ', ' London']
+Skipping fixture due to unexpected format: ['Mayo ', ' 13:00 ', ' Venue: Páirc an Chrócaigh ', ' Roscommon']
+Skipping fixture due to unexpected format: ['Cavan ', ' 15:00 ', ' Venue: Páirc an Chrócaigh ', ' Semi-Final Winner']
+Skipping fixture due to unexpected format: ['Leinster ', ' - ', ' Venue: TBC ', ' Tipperary']
+Skipping fixture due to unexpected format: ['Westmeath ', ' 14:00 ', " Venue: Laois Hire O'Moore Park, Portlaoise ", ' Limerick']
+Skipping fixture due to unexpected format: ['Wicklow ', ' 18:00 ', ' Venue: Chadwicks Wexford Park ', ' Waterford']
+Skipping fixture due to unexpected format: ['Offaly ', ' 18:00 ', " Venue: Cedral St Conleth's Newbridge ", ' Laois']
+[
+  {
+    "team_1": "Waterford",
+    "goals_1": "0",
+    "points_1": "22",
+    "team_2": "Limerick",
+    "goals_2": "0",
+    "points_2": "28",
+    "venue": "Venue: Walsh Park, Waterford",
+    "referee": "Referee: Colm Lyons"
+  },
+  {
+    "team_1": "Down",
+    "goals_1": "1",
+    "points_1": "22",
+    "team_2": "Tyrone",
+    "goals_2": "4",
+    "points_2": "11",
+    "venue": "Venue: Kingspan Breffni, Cavan",
+    "referee": "Referee: Kevin Brady"
+  },
+  {
+    "team_1": "Armagh",
+    "goals_1": "2",
+    "points_1": "21",
+    "team_2": "Monaghan",
+    "goals_2": "1",
+    "points_2": "10",
+    "venue": "Venue: Kingspan Breffni, Cavan",
+    "referee": "Referee: Michael Connolly"
+  },
+  {
+    "team_1": "Mayo",
+    "goals_1": "1",
+    "points_1": "15",
+    "team_2": "Galway",
+    "goals_2": "1",
+    "points_2": "17",
+    "venue": "Venue: Hastings Insurance MacHale Park, Castlebar",
+    "referee": "Referee: Paddy Neilan"
+  },
+  {
+    "team_1": "Kerry",
+    "goals_1": "4",
+    "points_1": "20",
+    "team_2": "Clare",
+    "goals_2": "0",
+    "points_2": "21",
+    "venue": "Venue: Fitzgerald Stadium",
+    "referee": "Referee: Noel Mooney"
+  },
+  {
+    "team_1": "Sligo",
+    "goals_1": "7",
+    "points_1": "21",
+    "team_2": "London",
+    "goals_2": "1",
+    "points_2": "7",
+    "venue": "Venue: Connacht GAA Centre",
+    "referee": "Referee: Brendan Healy"
+  },
+  {
+    "team_1": "Armagh",
+    "goals_1": "0",
+    "points_1": "28",
+    "team_2": "Donegal",
+    "goals_2": "2",
+    "points_2": "23",
+    "venue": "Venue: St. Tiernach's Park, Clones",
+    "referee": "Referee: Brendan Cawley"
+  },
+  {
+    "team_1": "Galway",
+    "goals_1": "1",
+    "points_1": "29",
+    "team_2": "Wexford",
+    "goals_2": "2",
+    "points_2": "16",
+    "venue": "Venue: Pearse Stadium",
+    "referee": "Referee: Thomas Walsh"
+  },
+  {
+    "team_1": "Antrim",
+    "goals_1": "0",
+    "points_1": "19",
+    "team_2": "Dublin",
+    "goals_2": "3",
+    "points_2": "25",
+    "venue": "Venue: Corrigan Park, Belfast",
+    "referee": "Referee: Liam Gordon"
+  },
+  {
+    "team_1": "Kilkenny",
+    "goals_1": "4",
+    "points_1": "25",
+    "team_2": "Offaly",
+    "goals_2": "2",
+    "points_2": "16",
+    "venue": "Venue: UPMC Nowlan Park",
+    "referee": "Referee: Colm McDonald"
+  },
+  {
+    "team_1": "Clare",
+    "goals_1": "2",
+    "points_1": "21",
+    "team_2": "Tipperary",
+    "goals_2": "4",
+    "points_2": "18",
+    "venue": "Venue: Zimmer Biomet P\u00e1irc Ch\u00edos\u00f3g, Ennis",
+    "referee": "Referee: James Owens"
+  },
+  {
+    "team_1": "Donegal",
+    "goals_1": "1",
+    "points_1": "15",
+    "team_2": "London",
+    "goals_2": "2",
+    "points_2": "19",
+    "venue": "Venue: Letterkenny",
+    "referee": "Referee: James Judge"
+  },
+  {
+    "team_1": "Tyrone",
+    "goals_1": "0",
+    "points_1": "10",
+    "team_2": "Derry",
+    "goals_2": "1",
+    "points_2": "30",
+    "venue": "Venue: Eoghan Ruadh, Dungannon",
+    "referee": "Referee: Peter Owens"
+  },
+  {
+    "team_1": "Wicklow",
+    "goals_1": "3",
+    "points_1": "17",
+    "team_2": "Meath",
+    "goals_2": "0",
+    "points_2": "16",
+    "venue": "Venue: Echelon Park, Aughrim",
+    "referee": "Referee: Padraig Dunne"
+  },
+  {
+    "team_1": "Armagh",
+    "goals_1": "2",
+    "points_1": "15",
+    "team_2": "Louth",
+    "goals_2": "0",
+    "points_2": "19",
+    "venue": "Venue: BOX-IT Athletic Grounds, Armagh",
+    "referee": "Referee: Kevin Parke"
+  },
+  {
+    "team_1": "Mayo",
+    "goals_1": "1",
+    "points_1": "32",
+    "team_2": "Sligo",
+    "goals_2": "1",
+    "points_2": "17",
+    "venue": "Venue: Hastings Insurance MacHale Park, Castlebar",
+    "referee": "Referee: Matthew Redmond"
+  },
+  {
+    "team_1": "Lancashire",
+    "goals_1": "2",
+    "points_1": "14",
+    "team_2": "Monaghan",
+    "goals_2": "4",
+    "points_2": "15",
+    "venue": "Venue: Abbottstown - GAA Centre of Excellence",
+    "referee": "Referee: Nicholas Barry"
+  },
+  {
+    "team_1": "Longford",
+    "goals_1": "3",
+    "points_1": "17",
+    "team_2": "Cavan",
+    "goals_2": "3",
+    "points_2": "29",
+    "venue": "Venue: Glennon Brothers Pearse Park",
+    "referee": "Referee: Conor Doyle"
+  },
+  {
+    "team_1": "Waterford",
+    "goals_1": "2",
+    "points_1": "18",
+    "team_2": "Kilkenny",
+    "goals_2": "0",
+    "points_2": "8",
+    "venue": "Venue: Lemybrien",
+    "referee": "Referee: Brian Crowley"
+  },
+  {
+    "team_1": "Wexford",
+    "goals_1": "1",
+    "points_1": "10",
+    "team_2": "Laois",
+    "goals_2": "2",
+    "points_2": "14",
+    "venue": "Venue: McCauley Park Bellefield",
+    "referee": "Referee: Lar Murphy"
+  },
+  {
+    "team_1": "Limerick",
+    "goals_1": "0",
+    "points_1": "7",
+    "team_2": "Wicklow",
+    "goals_2": "3",
+    "points_2": "11",
+    "venue": "Venue: Mick Neville Park Rathkeale",
+    "referee": "Referee: Gary Twomey"
+  },
+  {
+    "team_1": "Carlow",
+    "goals_1": "1",
+    "points_1": "20",
+    "team_2": "Kildare",
+    "goals_2": "2",
+    "points_2": "23",
+    "venue": "Venue: Netwatch Cullen Park",
+    "referee": "Referee: Eamonn Furlong"
+  },
+  {
+    "team_1": "Westmeath",
+    "goals_1": "2",
+    "points_1": "24",
+    "team_2": "Down",
+    "goals_2": "0",
+    "points_2": "20",
+    "venue": "Venue: TEG Cusack Park, Mullingar",
+    "referee": "Referee: Colum Cunning"
+  },
+  {
+    "team_1": "Limerick",
+    "goals_1": "0",
+    "points_1": "25",
+    "team_2": "London",
+    "goals_2": "1",
+    "points_2": "15",
+    "venue": "Venue: Newcastle West",
+    "referee": "Referee: Seamus Mulhare"
+  },
+  {
+    "team_1": "Offaly",
+    "goals_1": "2",
+    "points_1": "13",
+    "team_2": "Wicklow",
+    "goals_2": "0",
+    "points_2": "11",
+    "venue": "Venue: Glenisk O'Connor Park",
+    "referee": "Referee: Niall Cullen"
+  },
+  {
+    "team_1": "Laois",
+    "goals_1": "0",
+    "points_1": "28",
+    "team_2": "Waterford",
+    "goals_2": "1",
+    "points_2": "16",
+    "venue": "Venue: Laois Hire O'Moore Park, Portlaoise",
+    "referee": "Referee: Derek O Mahoney"
+  },
+  {
+    "team_1": "Kildare",
+    "goals_1": "0",
+    "points_1": "36",
+    "team_2": "Leitrim",
+    "goals_2": "0",
+    "points_2": "11",
+    "venue": "Venue: Cedral St Conleth's Newbridge",
+    "referee": "Referee: Liam Devenney"
+  },
+  {
+    "team_1": "Wexford",
+    "goals_1": "2",
+    "points_1": "24",
+    "team_2": "Longford",
+    "goals_2": "1",
+    "points_2": "18",
+    "venue": "Venue: Chadwicks Wexford Park",
+    "referee": "Referee: Brendan Griffin"
+  },
+  {
+    "team_1": "Meath",
+    "goals_1": "1",
+    "points_1": "18",
+    "team_2": "Louth",
+    "goals_2": "3",
+    "points_2": "14",
+    "venue": "Venue: P\u00e1irc an Chr\u00f3caigh",
+    "referee": "Referee: Martin McNally"
+  },
+  {
+    "team_1": "Roscommon",
+    "goals_1": "4",
+    "points_1": "27",
+    "team_2": "Fermanagh",
+    "goals_2": "0",
+    "points_2": "22",
+    "venue": "Venue: King & Moffatt Dr Hyde Park, Roscommon",
+    "referee": "Referee: James Clarke"
+  },
+  {
+    "team_1": "Warwickshire",
+    "goals_1": "2",
+    "points_1": "17",
+    "team_2": "Leitrim",
+    "goals_2": "0",
+    "points_2": "18",
+    "venue": "Venue: P\u00e1irc na h\u00c9ireann, Birmingham",
+    "referee": "Referee: Aidan Mc Aleer"
+  },
+  {
+    "team_1": "Kerry",
+    "goals_1": "0",
+    "points_1": "14",
+    "team_2": "Tyrone",
+    "goals_2": "2",
+    "points_2": "14",
+    "venue": "Venue: Laois Hire O'Moore Park, Portlaoise",
+    "referee": "Referee: Barry Judge"
+  },
+  {
+    "team_1": "Limerick",
+    "goals_1": "0",
+    "points_1": "24",
+    "team_2": "Monaghan",
+    "goals_2": "3",
+    "points_2": "17",
+    "venue": "Venue: Moorefield",
+    "referee": "Referee: Christopher Ryan"
+  },
+  {
+    "team_1": "Fermanagh",
+    "goals_1": "0",
+    "points_1": "11",
+    "team_2": "Longford",
+    "goals_2": "1",
+    "points_2": "10",
+    "venue": "Venue: Shamrock Park, Roslea",
+    "referee": "Referee: Neil Mc Geown"
+  },
+  {
+    "team_1": "Laois",
+    "goals_1": "5",
+    "points_1": "28",
+    "team_2": "Kerry",
+    "goals_2": "1",
+    "points_2": "21",
+    "venue": "Venue: Laois Hire O'Moore Park, Portlaoise",
+    "referee": "Referee: Brian Keon"
+  },
+  {
+    "team_1": "Sligo",
+    "goals_1": "2",
+    "points_1": "15",
+    "team_2": "Tipperary",
+    "goals_2": "2",
+    "points_2": "10",
+    "venue": "Venue: Tubbercurry",
+    "referee": "Referee: Sean Hurson"
+  },
+  {
+    "team_1": "Westmeath",
+    "goals_1": "4",
+    "points_1": "24",
+    "team_2": "Antrim",
+    "goals_2": "1",
+    "points_2": "17",
+    "venue": "Venue: TEG Cusack Park, Mullingar",
+    "referee": "Referee: Thomas Murphy"
+  },
+  {
+    "team_1": "Fermanagh",
+    "goals_1": "2",
+    "points_1": "18",
+    "team_2": "Carlow",
+    "goals_2": "3",
+    "points_2": "18",
+    "venue": "Venue: Brewster Park, Enniskillen",
+    "referee": "Referee: Barry Cassidy"
+  },
+  {
+    "team_1": "Leitrim",
+    "goals_1": "0",
+    "points_1": "17",
+    "team_2": "Westmeath",
+    "goals_2": "3",
+    "points_2": "20",
+    "venue": "Venue: King & Moffatt Dr Hyde Park, Roscommon",
+    "referee": "Referee: Diarmuid Boylan"
+  },
+  {
+    "team_1": "Mayo",
+    "goals_1": "0",
+    "points_1": "17",
+    "team_2": "Louth",
+    "goals_2": "2",
+    "points_2": "12",
+    "venue": "Venue: Glennon Brothers Pearse Park",
+    "referee": "Referee: Conor Dourneen"
+  },
+  {
+    "team_1": "Meath",
+    "goals_1": "2",
+    "points_1": "17",
+    "team_2": "Galway",
+    "goals_2": "2",
+    "points_2": "16",
+    "venue": "Venue: P\u00e1irc Tailteann, Navan",
+    "referee": "Referee: Margaret Farrelly"
+  },
+  {
+    "team_1": "Kerry",
+    "goals_1": "3",
+    "points_1": "18",
+    "team_2": "Roscommon",
+    "goals_2": "0",
+    "points_2": "17",
+    "venue": "Venue: Fitzgerald Stadium",
+    "referee": "Referee: David Coldrick"
+  },
+  {
+    "team_1": "Galway",
+    "goals_1": "2",
+    "points_1": "14",
+    "team_2": "Dublin",
+    "goals_2": "1",
+    "points_2": "18",
+    "venue": "Venue: Pearse Stadium",
+    "referee": "Referee: David Gough"
+  },
+  {
+    "team_1": "Galway",
+    "goals_1": "6",
+    "points_1": "27",
+    "team_2": "Antrim",
+    "goals_2": "1",
+    "points_2": "14",
+    "venue": "Venue: Pearse Stadium",
+    "referee": "Referee: Thomas Gleeson"
+  },
+  {
+    "team_1": "Wexford",
+    "goals_1": "2",
+    "points_1": "17",
+    "team_2": "Offaly",
+    "goals_2": "1",
+    "points_2": "17",
+    "venue": "Venue: Chadwicks Wexford Park",
+    "referee": "Referee: Shane Hynes"
+  },
+  {
+    "team_1": "Derry",
+    "goals_1": "2",
+    "points_1": "30",
+    "team_2": "Wicklow",
+    "goals_2": "1",
+    "points_2": "13",
+    "venue": "Venue: Celtic Park",
+    "referee": "Referee: Matthew Farrell"
+  },
+  {
+    "team_1": "Meath",
+    "goals_1": "3",
+    "points_1": "14",
+    "team_2": "Donegal",
+    "goals_2": "0",
+    "points_2": "28",
+    "venue": "Venue: Trim",
+    "referee": "Referee: Conor Doyle"
+  },
+  {
+    "team_1": "London",
+    "goals_1": "4",
+    "points_1": "20",
+    "team_2": "Tyrone",
+    "goals_2": "1",
+    "points_2": "13",
+    "venue": "Venue: McGovern Park, Ruislip",
+    "referee": "Referee: Kevin Parke"
+  },
+  {
+    "team_1": "Fermanagh",
+    "goals_1": "1",
+    "points_1": "22",
+    "team_2": "Mayo",
+    "goals_2": "3",
+    "points_2": "16",
+    "venue": "Venue: Brewster Park, Enniskillen",
+    "referee": "Referee: Ciaran Mc Closkey"
+  },
+  {
+    "team_1": "Sligo",
+    "goals_1": "3",
+    "points_1": "13",
+    "team_2": "Armagh",
+    "goals_2": "0",
+    "points_2": "23",
+    "venue": "Venue: Kilcoyne Park",
+    "referee": "Referee: James Judge"
+  },
+  {
+    "team_1": "Louth",
+    "goals_1": "0",
+    "points_1": "20",
+    "team_2": "Roscommon",
+    "goals_2": "4",
+    "points_2": "17",
+    "venue": "Venue: P\u00e1irc Naomh Br\u00edd, Dowdallshill",
+    "referee": "Referee: Matthew Redmond"
+  },
+  {
+    "team_1": "Warwickshire",
+    "goals_1": "4",
+    "points_1": "13",
+    "team_2": "Lancashire",
+    "goals_2": "0",
+    "points_2": "26",
+    "venue": "Venue: P\u00e1irc na h\u00c9ireann, Birmingham",
+    "referee": "Referee: James Clarke"
+  },
+  {
+    "team_1": "Monaghan",
+    "goals_1": "2",
+    "points_1": "20",
+    "team_2": "Longford",
+    "goals_2": "2",
+    "points_2": "20",
+    "venue": "Venue: Grattan Park, Inniskeen",
+    "referee": "Referee: Aidan Mc Aleer"
+  },
+  {
+    "team_1": "Cavan",
+    "goals_1": "1",
+    "points_1": "10",
+    "team_2": "Leitrim",
+    "goals_2": "2",
+    "points_2": "15",
+    "venue": "Venue: Kingspan Breffni, Cavan",
+    "referee": "Referee: Kevin Brady"
+  },
+  {
+    "team_1": "Longford",
+    "goals_1": "3",
+    "points_1": "18",
+    "team_2": "Carlow",
+    "goals_2": "2",
+    "points_2": "19",
+    "venue": "Venue: Glennon Brothers Pearse Park",
+    "referee": "Referee: Aaron Clogher"
+  },
+  {
+    "team_1": "Laois",
+    "goals_1": "3",
+    "points_1": "20",
+    "team_2": "Antrim",
+    "goals_2": "0",
+    "points_2": "15",
+    "venue": "Venue: O'Raghallaighs/St Nicholas",
+    "referee": "Referee: Cathal Sweeney"
+  },
+  {
+    "team_1": "Wicklow",
+    "goals_1": "3",
+    "points_1": "13",
+    "team_2": "Waterford",
+    "goals_2": "1",
+    "points_2": "3",
+    "venue": "Venue: Echelon COE Ballinakill",
+    "referee": "Referee: John Hickey"
+  },
+  {
+    "team_1": "Derry",
+    "goals_1": "3",
+    "points_1": "13",
+    "team_2": "Tipperary",
+    "goals_2": "0",
+    "points_2": "16",
+    "venue": "Venue: Stamullen",
+    "referee": "Referee: Patrick Coyle"
+  },
+  {
+    "team_1": "Leitrim",
+    "goals_1": "1",
+    "points_1": "16",
+    "team_2": "Down",
+    "goals_2": "0",
+    "points_2": "19",
+    "venue": "Venue: Avant Money P\u00e1irc Se\u00e1n Mac Diarmada",
+    "referee": "Referee: Ronan Hynes"
+  },
+  {
+    "team_1": "Westmeath",
+    "goals_1": "0",
+    "points_1": "8",
+    "team_2": "Armagh",
+    "goals_2": "2",
+    "points_2": "17",
+    "venue": "Venue: Kinnegad",
+    "referee": "Referee: Eamon O Connor"
+  },
+  {
+    "team_1": "Down",
+    "goals_1": "2",
+    "points_1": "26",
+    "team_2": "Kerry",
+    "goals_2": "2",
+    "points_2": "19",
+    "venue": "Venue: Ballycran",
+    "referee": "Referee: Chris Mooney"
+  },
+  {
+    "team_1": "Westmeath",
+    "goals_1": "4",
+    "points_1": "22",
+    "team_2": "Carlow",
+    "goals_2": "7",
+    "points_2": "23",
+    "venue": "Venue: TEG Cusack Park, Mullingar",
+    "referee": "Referee: James Owens"
+  },
+  {
+    "team_1": "Waterford",
+    "goals_1": "1",
+    "points_1": "13",
+    "team_2": "Offaly",
+    "goals_2": "1",
+    "points_2": "18",
+    "venue": "Venue: Walsh Park, Waterford",
+    "referee": "Referee: Conor Lane"
+  },
+  {
+    "team_1": "Wicklow",
+    "goals_1": "0",
+    "points_1": "21",
+    "team_2": "Laois",
+    "goals_2": "0",
+    "points_2": "16",
+    "venue": "Venue: Echelon Park, Aughrim",
+    "referee": "Referee: Fergal Kelly"
+  },
+  {
+    "team_1": "Tipperary",
+    "goals_1": "1",
+    "points_1": "11",
+    "team_2": "Kildare",
+    "goals_2": "3",
+    "points_2": "19",
+    "venue": "Venue: Clonmel",
+    "referee": "Referee: Jerome Henry"
+  },
+  {
+    "team_1": "Antrim",
+    "goals_1": "1",
+    "points_1": "10",
+    "team_2": "Limerick",
+    "goals_2": "1",
+    "points_2": "18",
+    "venue": "Venue: Corrigan Park, Belfast",
+    "referee": "Referee: Kieran Eannetta"
+  },
+  {
+    "team_1": "Clare",
+    "goals_1": "1",
+    "points_1": "16",
+    "team_2": "Down",
+    "goals_2": "3",
+    "points_2": "27",
+    "venue": "Venue: Zimmer Biomet P\u00e1irc Ch\u00edos\u00f3g, Ennis",
+    "referee": "Referee: Paddy Neilan"
+  },
+  {
+    "team_1": "Mayo",
+    "goals_1": "1",
+    "points_1": "14",
+    "team_2": "Cavan",
+    "goals_2": "1",
+    "points_2": "17",
+    "venue": "Venue: Hastings Insurance MacHale Park, Castlebar",
+    "referee": "Referee: Paul Faloon"
+  },
+  {
+    "team_1": "Kilkenny",
+    "goals_1": "5",
+    "points_1": "19",
+    "team_2": "Dublin",
+    "goals_2": "3",
+    "points_2": "21",
+    "venue": "Venue: UPMC Nowlan Park",
+    "referee": "Referee: Michael Kennedy"
+  },
+  {
+    "team_1": "Tipperary",
+    "goals_1": "1",
+    "points_1": "30",
+    "team_2": "Waterford",
+    "goals_2": "1",
+    "points_2": "21",
+    "venue": "Venue: FBD Semple Stadium, Thurles",
+    "referee": "Referee: Sean Stack"
+  },
+  {
+    "team_1": "Limerick",
+    "goals_1": "3",
+    "points_1": "26",
+    "team_2": "Cork",
+    "goals_2": "1",
+    "points_2": "16",
+    "venue": "Venue: TUS Gaelic Grounds",
+    "referee": "Referee: Liam Gordon"
+  },
+  {
+    "team_1": "Sligo",
+    "goals_1": "2",
+    "points_1": "10",
+    "team_2": "Clare",
+    "goals_2": "1",
+    "points_2": "6",
+    "venue": "Venue: Kilcoyne Park",
+    "referee": "Referee: John Glavey"
+  },
+  {
+    "team_1": "Laois",
+    "goals_1": "1",
+    "points_1": "18",
+    "team_2": "Kildare",
+    "goals_2": "4",
+    "points_2": "20",
+    "venue": "Venue: Laois Hire O'Moore Park, Portlaoise",
+    "referee": "Referee: Niall Malone"
+  },
+  {
+    "team_1": "Leitrim",
+    "goals_1": "1",
+    "points_1": "18",
+    "team_2": "Sligo",
+    "goals_2": "2",
+    "points_2": "19",
+    "venue": "Venue: Avant Money P\u00e1irc Se\u00e1n Mac Diarmada",
+    "referee": "Referee: James Molloy"
+  },
+  {
+    "team_1": "London",
+    "goals_1": "1",
+    "points_1": "10",
+    "team_2": "Westmeath",
+    "goals_2": "0",
+    "points_2": "26",
+    "venue": "Venue: McGovern Park, Ruislip",
+    "referee": "Referee: Barry Tiernan"
+  },
+  {
+    "team_1": "Carlow",
+    "goals_1": "2",
+    "points_1": "16",
+    "team_2": "Wexford",
+    "goals_2": "1",
+    "points_2": "19",
+    "venue": "Venue: Netwatch Cullen Park",
+    "referee": "Referee: David Murnane"
+  },
+  {
+    "team_1": "Longford",
+    "goals_1": "0",
+    "points_1": "7",
+    "team_2": "Fermanagh",
+    "goals_2": "2",
+    "points_2": "19",
+    "venue": "Venue: Glennon Brothers Pearse Park",
+    "referee": "Referee: Joe Mc Quillan"
+  }
+]

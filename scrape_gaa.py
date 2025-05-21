@@ -32,6 +32,8 @@ for f in fixtures[:5]:  # print first 5 fixtures
 for f in fixtures[:5]:
     text = f.get_text(separator=" | ", strip=True)
     parts = text.split("|")
+    print(parts)  # This will print out the split list so you can see the structure
+
     # This is just an example — adapt to the actual format
     print({
         "team_1": parts[0].strip(),
@@ -46,14 +48,28 @@ fixtures_data = []
 for f in fixtures:
     text = f.get_text(separator=" | ", strip=True)
     parts = text.split("|")
-    fixture = {
-        "team_1": parts[0].strip(),
-        "score_1": parts[1].strip(),
-        "team_2": parts[-1].strip(),
-        "venue": next((p.strip() for p in parts if "Venue:" in p), ""),
-        "referee": next((p.strip() for p in parts if "Referee:" in p), ""),
-    }
-    fixtures_data.append(fixture)
+
+    try:
+        fixture = {
+            "team_1": parts[0].strip(),
+            "goals_1": parts[1].strip(),
+            "points_1": parts[3].strip(),
+            "team_2": parts[-1].strip(),
+            "goals_2": parts[4].strip(),
+            "points_2": parts[6].strip(),
+            "venue": next((p.strip() for p in parts if "Venue:" in p), ""),
+            "referee": next((p.strip() for p in parts if "Referee:" in p), "")
+        }
+        fixtures_data.append(fixture)
+    except IndexError:
+        print("Skipping fixture due to unexpected format:", parts)
+
+
+# Save JSON
+import json
+with open("website/fixtures.json", "w") as f:
+    json.dump(fixtures_data, f, indent=2)
+
 
 import json
 
