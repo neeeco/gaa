@@ -57,7 +57,7 @@
 </head>
 <body>
   <h1>GAA Fixtures & Results</h1>
-  
+
 <!-- Step 1: Place your filter here -->
   <label for="gameFilter">Filter by Game:</label>
   <select id="gameFilter">
@@ -78,29 +78,60 @@
   </div>
 
   <script>
-    fetch('results.json')
-      .then(res => res.json())
-      .then(data => {
-        const resultsEl = document.getElementById('results');
-        data.forEach(item => {
-          resultsEl.innerHTML += `<li>
-            <strong>${item.team_1}</strong> ${item.score_1} - ${item.score_2} <strong>${item.team_2}</strong><br>
-            <small>${item.venue}<br>${item.referee}</small>
-          </li>`;
-        });
+    let allResults = [], allFixtures = [];
+
+    // fetch both JSON files
+    Promise.all([
+      fetch('results.json').then(r=>r.json()),
+      fetch('fixtures.json').then(r=>r.json())
+    ]).then(([results, fixtures]) => {
+      allResults = results;
+      allFixtures = fixtures;
+
+       // ← Paste your logs here:
+    const gamesInResults = [...new Set(allResults.map(m => m.game))];
+    const gamesInFixtures = [...new Set(allFixtures.map(m => m.game))];
+    console.log('Games in results:', gamesInResults);
+    console.log('Games in fixtures:', gamesInFixtures);
+    // ↑
+      renderMatches();  // initial render of everything
+    });
+
+    // 3. Paste your filter-listening code right here:
+    const gameFilter = document.getElementById('gameFilter');
+    gameFilter.addEventListener('change', () => {
+      renderMatches();
+    });
+
+    // 4. renderMatches uses the dropdown value to filter
+    function renderMatches() {
+      const filter = gameFilter.value;
+      const resultsEl = document.getElementById('results');
+      const fixturesEl = document.getElementById('fixtures');
+      resultsEl.innerHTML = '';
+      fixturesEl.innerHTML = '';
+
+      const filteredResults = filter === 'all'
+        ? allResults
+        : allResults.filter(m => m.game === filter);
+      const filteredFixtures = filter === 'all'
+        ? allFixtures
+        : allFixtures.filter(m => m.game === filter);
+
+      filteredResults.forEach(m => {
+        const li = document.createElement('li');
+        li.innerHTML = `<strong>${m.team_1}</strong> ${m.score_1} vs ${m.team_2} ${m.score_2}
+                        <br><small>${m.venue}<br>${m.referee}</small>`;
+        resultsEl.appendChild(li);
       });
 
-    fetch('fixtures.json')
-      .then(res => res.json())
-      .then(data => {
-        const fixturesEl = document.getElementById('fixtures');
-        data.forEach(item => {
-          fixturesEl.innerHTML += `<li>
-            <strong>${item.team_1}</strong> vs <strong>${item.team_2}</strong><br>
-            <small>${item.venue}<br>${item.referee}</small>
-          </li>`;
-        });
+      filteredFixtures.forEach(m => {
+        const li = document.createElement('li');
+        li.innerHTML = `<strong>${m.team_1}</strong> vs <strong>${m.team_2}</strong>
+                        <br><small>${m.venue}<br>${m.referee}</small>`;
+        fixturesEl.appendChild(li);
       });
+    }
   </script>
 </body>
 </html>

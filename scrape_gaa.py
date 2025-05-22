@@ -74,9 +74,9 @@ for f in fixtures_list:
         link = f.find("a", href=True)
         href = link["href"] if link else ""
         if "/hurling/" in href:
-            game = "Hurling"
+            game = "hurling"
         elif "/football/" in href:
-            game = "Football"
+            game = "football"
         else:
             game = "unknown"
 
