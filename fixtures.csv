@@ -1,14 +1,14 @@
-team_1,team_2,venue,referee,game,url,date
-Meath,Cork,"Venue: Páirc Tailteann, Navan",Referee: Noel Mooney,football,/football/gaa-football-all-ireland-senior-championship/meath-cork/2907087,2025-05-24T00:00:00
-Louth,Monaghan,Venue: Cedral St Conleth's Newbridge,Referee: Brendan Cawley,football,/football/gaa-football-all-ireland-senior-championship/louth-monaghan/2907103,2025-05-24T00:00:00
-Armagh,Derry,"Venue: BOX-IT Athletic Grounds, Armagh",Referee: Sean Hurson,football,/football/gaa-football-all-ireland-senior-championship/armagh-derry/2907111,2025-05-24T00:00:00
-Donegal,Tyrone,Venue: Ballybofey,Referee: Martin McNally,football,/football/gaa-football-all-ireland-senior-championship/donegal-tyrone/2907079,2025-05-24T00:00:00
-Offaly,Antrim,Venue: Glenisk O'Connor Park,Referee: Michael Kennedy,hurling,/hurling/leinster-gaa-hurling-senior-championship/offaly-antrim/2907223,2025-05-25T00:00:00
-Dublin,Galway,Venue: Parnell Park,Referee: Colm Lyons,hurling,/hurling/leinster-gaa-hurling-senior-championship/dublin-galway/2907225,2025-05-25T00:00:00
-Wexford,Kilkenny,Venue: Chadwicks Wexford Park,Referee: Sean Stack,hurling,/hurling/leinster-gaa-hurling-senior-championship/wexford-kilkenny/2907227,2025-05-25T00:00:00
-Cork,Waterford,"Venue: SuperValu Páirc Uí Chaoimh, Cork",Referee: Johnny Murphy,hurling,/hurling/munster-gaa-hurling-senior-championship/cork-waterford/2907257,2025-05-25T00:00:00
-Limerick,Clare,Venue: TUS Gaelic Grounds,Referee: Thomas Walsh,hurling,/hurling/munster-gaa-hurling-senior-championship/limerick-clare/2907259,2025-05-25T00:00:00
-Cork,Kerry,"Venue: SuperValu Páirc Uí Chaoimh, Cork",,football,/football/gaa-football-all-ireland-senior-championship/cork-kerry/2907089,2025-05-31T00:00:00
-Roscommon,Meath,"Venue: King & Moffatt Dr Hyde Park, Roscommon",,football,/football/gaa-football-all-ireland-senior-championship/roscommon-meath/2907085,2025-05-31T00:00:00
-Down,Louth,"Venue: Páirc Esler, Newry",,football,/football/gaa-football-all-ireland-senior-championship/down-louth/2907099,2025-05-31T00:00:00
-Tyrone,Mayo,"Venue: O'Neills Healy Park, Omagh",,football,/football/gaa-football-all-ireland-senior-championship/tyrone-mayo/2907073,2025-05-31T00:00:00
+team_1,team_2,venue,game,url,date
+Meath,Cork,"Venue: Páirc Tailteann, Navan",football,/football/gaa-football-all-ireland-senior-championship/meath-cork/2907087,2025-05-24T00:00:00
+Louth,Monaghan,Venue: Cedral St Conleth's Newbridge,football,/football/gaa-football-all-ireland-senior-championship/louth-monaghan/2907103,2025-05-24T00:00:00
+Armagh,Derry,"Venue: BOX-IT Athletic Grounds, Armagh",football,/football/gaa-football-all-ireland-senior-championship/armagh-derry/2907111,2025-05-24T00:00:00
+Donegal,Tyrone,Venue: Ballybofey,football,/football/gaa-football-all-ireland-senior-championship/donegal-tyrone/2907079,2025-05-24T00:00:00
+Offaly,Antrim,Venue: Glenisk O'Connor Park,hurling,/hurling/leinster-gaa-hurling-senior-championship/offaly-antrim/2907223,2025-05-25T00:00:00
+Dublin,Galway,Venue: Parnell Park,hurling,/hurling/leinster-gaa-hurling-senior-championship/dublin-galway/2907225,2025-05-25T00:00:00
+Wexford,Kilkenny,Venue: Chadwicks Wexford Park,hurling,/hurling/leinster-gaa-hurling-senior-championship/wexford-kilkenny/2907227,2025-05-25T00:00:00
+Cork,Waterford,"Venue: SuperValu Páirc Uí Chaoimh, Cork",hurling,/hurling/munster-gaa-hurling-senior-championship/cork-waterford/2907257,2025-05-25T00:00:00
+Limerick,Clare,Venue: TUS Gaelic Grounds,hurling,/hurling/munster-gaa-hurling-senior-championship/limerick-clare/2907259,2025-05-25T00:00:00
+Cork,Kerry,"Venue: SuperValu Páirc Uí Chaoimh, Cork",football,/football/gaa-football-all-ireland-senior-championship/cork-kerry/2907089,2025-05-31T00:00:00
+Roscommon,Meath,"Venue: King & Moffatt Dr Hyde Park, Roscommon",football,/football/gaa-football-all-ireland-senior-championship/roscommon-meath/2907085,2025-05-31T00:00:00
+Down,Louth,"Venue: Páirc Esler, Newry",football,/football/gaa-football-all-ireland-senior-championship/down-louth/2907099,2025-05-31T00:00:00
+Tyrone,Mayo,"Venue: O'Neills Healy Park, Omagh",football,/football/gaa-football-all-ireland-senior-championship/tyrone-mayo/2907073,2025-05-31T00:00:00

@@ -84,7 +84,6 @@ for f in fixtures_list:
         "team_1": team_1,
         "team_2": team_2,
         "venue": venue,
-        "referee": referee,
         "game": game,
         "url": href,
         "date": iso_date      # ← newly added field
