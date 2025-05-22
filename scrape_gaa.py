@@ -33,76 +33,60 @@ for f in fixtures_list[:5]:
     print(f.get_text(separator=" | ", strip=True))
 
 results = []
-fixtures = []  # Initialize empty lists before use
+fixtures = []
 
 for f in fixtures_list:
+    # Infer game from the match link URL
+    link = f.find("a", href=True)
+    href = link["href"] if link else ""
+    if "/hurling/" in href:
+        game = "hurling"
+    elif "/football/" in href:
+        game = "football"
+    else:
+        game = "unknown"
+
+    # Optionally skip non-senior games
+    if "senior" not in href:
+        continue
+
+    # Now parse the rest of the fixture
     text = f.get_text(separator=" | ", strip=True)
     parts = [p.strip() for p in text.split("|") if p.strip()]
-    
-    try:
-        # Extract venue and referee by scanning parts
-        venue = next((p for p in parts if p.startswith("Venue:")), "")
-        referee = next((p for p in parts if p.startswith("Referee:")), "")
-        
-        # Remove venue and referee from parts to simplify
-        parts_cleaned = [p for p in parts if not (p.startswith("Venue:") or p.startswith("Referee:"))]
-        
-        # The last item is team_2
-        team_2 = parts_cleaned[-1]
-        
-        # The first item is team_1
-        team_1 = parts_cleaned[0]
-        
-        # Find scores by looking for a pattern: number - number somewhere between team names
-        # The scores should be consecutive parts: goals, "-", points for team 1 and team 2
-        
-        # We'll try to find first score pattern (team 1)
-        score_1 = ""
-        score_2 = ""
-        for i in range(1, len(parts_cleaned)-1):
-            if parts_cleaned[i] == '-' and i-1 >= 0 and i+1 < len(parts_cleaned):
-                # Check if parts before and after '-' are digits
-                if parts_cleaned[i-1].isdigit() and parts_cleaned[i+1].isdigit():
-                    # First occurrence -> score_1
-                    if not score_1:
-                        score_1 = parts_cleaned[i-1] + "-" + parts_cleaned[i+1]
-                    # Second occurrence -> score_2
-                    elif not score_2:
-                        score_2 = parts_cleaned[i-1] + "-" + parts_cleaned[i+1]
-        
-        # *** NEW: infer from link URL ***
-        link = f.find("a", href=True)
-        href = link["href"] if link else ""
-        if "/hurling/" in href:
-            game = "hurling"
-        elif "/football/" in href:
-            game = "football"
-        else:
-            game = "unknown"
+
+    venue = next((p for p in parts if p.startswith("Venue:")), "")
+    referee = next((p for p in parts if p.startswith("Referee:")), "")
+
+    parts_cleaned = [p for p in parts if not (p.startswith("Venue:") or p.startswith("Referee:"))]
+    team_1 = parts_cleaned[0]
+    team_2 = parts_cleaned[-1]
+
+    # Find goal–point patterns
+    score_1 = score_2 = ""
+    for i in range(1, len(parts_cleaned) - 1):
+        if parts_cleaned[i] == "-" and parts_cleaned[i-1].isdigit() and parts_cleaned[i+1].isdigit():
+            if not score_1:
+                score_1 = f"{parts_cleaned[i-1]}-{parts_cleaned[i+1]}"
+            elif not score_2:
+                score_2 = f"{parts_cleaned[i-1]}-{parts_cleaned[i+1]}"
+
+    fixture_data = {
+        "team_1": team_1,
+        "team_2": team_2,
+        "venue": venue,
+        "referee": referee,
+        "game": game,
+        "url": href
+    }
+
+    if score_1 and score_2 and (score_1 != "0-0" or score_2 != "0-0"):
+        fixture_data["score_1"] = score_1
+        fixture_data["score_2"] = score_2
+        results.append(fixture_data)
+    else:
+        fixtures.append(fixture_data)
 
 
-        fixture_data = {
-            "team_1": team_1,
-            "team_2": team_2,
-            "venue": venue,
-            "referee": referee,
-            "game": game,    # ← newly added
-        }
-        if score_1 and score_2:
-            fixture_data["score_1"] = score_1
-            fixture_data["score_2"] = score_2
-
-
-
-        
-        # Decide results vs fixtures based on scores (or absence)
-        if score_1 and score_2 and (score_1 != "0-0" or score_2 != "0-0"):
-            results.append(fixture_data)
-        else:
-            fixtures.append(fixture_data)
-    
-    except Exception as e:
-        print("Skipping fixture due to unexpected format:", parts, "| Error:", e)
 
 
 

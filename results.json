@@ -5,26 +5,9 @@
     "venue": "Venue: Walsh Park, Waterford",
     "referee": "Referee: Colm Lyons",
     "game": "hurling",
+    "url": "/hurling/munster-gaa-hurling-senior-championship/waterford-limerick/2907271",
     "score_1": "0-22",
     "score_2": "0-28"
-  },
-  {
-    "team_1": "Down",
-    "team_2": "Tyrone",
-    "venue": "Venue: Kingspan Breffni, Cavan",
-    "referee": "Referee: Kevin Brady",
-    "game": "hurling",
-    "score_1": "1-22",
-    "score_2": "4-11"
-  },
-  {
-    "team_1": "Armagh",
-    "team_2": "Monaghan",
-    "venue": "Venue: Kingspan Breffni, Cavan",
-    "referee": "Referee: Michael Connolly",
-    "game": "hurling",
-    "score_1": "2-21",
-    "score_2": "1-10"
   },
   {
     "team_1": "Mayo",
@@ -32,6 +15,7 @@
     "venue": "Venue: Hastings Insurance MacHale Park, Castlebar",
     "referee": "Referee: Paddy Neilan",
     "game": "football",
+    "url": "/football/connacht-gaa-football-senior-championship/mayo-galway/2907201",
     "score_1": "1-15",
     "score_2": "1-17"
   },
@@ -41,17 +25,9 @@
     "venue": "Venue: Fitzgerald Stadium",
     "referee": "Referee: Noel Mooney",
     "game": "football",
+    "url": "/football/munster-gaa-football-senior-championship/kerry-clare/2906909",
     "score_1": "4-20",
     "score_2": "0-21"
-  },
-  {
-    "team_1": "Sligo",
-    "team_2": "London",
-    "venue": "Venue: Connacht GAA Centre",
-    "referee": "Referee: Brendan Healy",
-    "game": "football",
-    "score_1": "7-21",
-    "score_2": "1-7"
   },
   {
     "team_1": "Armagh",
@@ -59,6 +35,7 @@
     "venue": "Venue: St. Tiernach's Park, Clones",
     "referee": "Referee: Brendan Cawley",
     "game": "football",
+    "url": "/football/ulster-gaa-football-senior-championship/armagh-donegal/2906899",
     "score_1": "0-28",
     "score_2": "2-23"
   },
@@ -68,6 +45,7 @@
     "venue": "Venue: Pearse Stadium",
     "referee": "Referee: Thomas Walsh",
     "game": "hurling",
+    "url": "/hurling/leinster-gaa-hurling-senior-championship/galway-wexford/2907239",
     "score_1": "1-29",
     "score_2": "2-16"
   },
@@ -77,6 +55,7 @@
     "venue": "Venue: Corrigan Park, Belfast",
     "referee": "Referee: Liam Gordon",
     "game": "hurling",
+    "url": "/hurling/leinster-gaa-hurling-senior-championship/antrim-dublin/2907237",
     "score_1": "0-19",
     "score_2": "3-25"
   },
@@ -86,6 +65,7 @@
     "venue": "Venue: UPMC Nowlan Park",
     "referee": "Referee: Colm McDonald",
     "game": "hurling",
+    "url": "/hurling/leinster-gaa-hurling-senior-championship/kilkenny-offaly/2907235",
     "score_1": "4-25",
     "score_2": "2-16"
   },
@@ -95,161 +75,9 @@
     "venue": "Venue: Zimmer Biomet P\u00e1irc Ch\u00edos\u00f3g, Ennis",
     "referee": "Referee: James Owens",
     "game": "hurling",
+    "url": "/hurling/munster-gaa-hurling-senior-championship/clare-tipperary/2907269",
     "score_1": "2-21",
     "score_2": "4-18"
-  },
-  {
-    "team_1": "Donegal",
-    "team_2": "London",
-    "venue": "Venue: Letterkenny",
-    "referee": "Referee: James Judge",
-    "game": "hurling",
-    "score_1": "1-15",
-    "score_2": "2-19"
-  },
-  {
-    "team_1": "Tyrone",
-    "team_2": "Derry",
-    "venue": "Venue: Eoghan Ruadh, Dungannon",
-    "referee": "Referee: Peter Owens",
-    "game": "hurling",
-    "score_1": "0-10",
-    "score_2": "1-30"
-  },
-  {
-    "team_1": "Wicklow",
-    "team_2": "Meath",
-    "venue": "Venue: Echelon Park, Aughrim",
-    "referee": "Referee: Padraig Dunne",
-    "game": "hurling",
-    "score_1": "3-17",
-    "score_2": "0-16"
-  },
-  {
-    "team_1": "Armagh",
-    "team_2": "Louth",
-    "venue": "Venue: BOX-IT Athletic Grounds, Armagh",
-    "referee": "Referee: Kevin Parke",
-    "game": "hurling",
-    "score_1": "2-15",
-    "score_2": "0-19"
-  },
-  {
-    "team_1": "Mayo",
-    "team_2": "Sligo",
-    "venue": "Venue: Hastings Insurance MacHale Park, Castlebar",
-    "referee": "Referee: Matthew Redmond",
-    "game": "hurling",
-    "score_1": "1-32",
-    "score_2": "1-17"
-  },
-  {
-    "team_1": "Lancashire",
-    "team_2": "Monaghan",
-    "venue": "Venue: Abbottstown - GAA Centre of Excellence",
-    "referee": "Referee: Nicholas Barry",
-    "game": "hurling",
-    "score_1": "2-14",
-    "score_2": "4-15"
-  },
-  {
-    "team_1": "Longford",
-    "team_2": "Cavan",
-    "venue": "Venue: Glennon Brothers Pearse Park",
-    "referee": "Referee: Conor Doyle",
-    "game": "hurling",
-    "score_1": "3-17",
-    "score_2": "3-29"
-  },
-  {
-    "team_1": "Waterford",
-    "team_2": "Kilkenny",
-    "venue": "Venue: Lemybrien",
-    "referee": "Referee: Brian Crowley",
-    "game": "football",
-    "score_1": "2-18",
-    "score_2": "0-8"
-  },
-  {
-    "team_1": "Wexford",
-    "team_2": "Laois",
-    "venue": "Venue: McCauley Park Bellefield",
-    "referee": "Referee: Lar Murphy",
-    "game": "football",
-    "score_1": "1-10",
-    "score_2": "2-14"
-  },
-  {
-    "team_1": "Limerick",
-    "team_2": "Wicklow",
-    "venue": "Venue: Mick Neville Park Rathkeale",
-    "referee": "Referee: Gary Twomey",
-    "game": "football",
-    "score_1": "0-7",
-    "score_2": "3-11"
-  },
-  {
-    "team_1": "Carlow",
-    "team_2": "Kildare",
-    "venue": "Venue: Netwatch Cullen Park",
-    "referee": "Referee: Eamonn Furlong",
-    "game": "hurling",
-    "score_1": "1-20",
-    "score_2": "2-23"
-  },
-  {
-    "team_1": "Westmeath",
-    "team_2": "Down",
-    "venue": "Venue: TEG Cusack Park, Mullingar",
-    "referee": "Referee: Colum Cunning",
-    "game": "hurling",
-    "score_1": "2-24",
-    "score_2": "0-20"
-  },
-  {
-    "team_1": "Limerick",
-    "team_2": "London",
-    "venue": "Venue: Newcastle West",
-    "referee": "Referee: Seamus Mulhare",
-    "game": "football",
-    "score_1": "0-25",
-    "score_2": "1-15"
-  },
-  {
-    "team_1": "Offaly",
-    "team_2": "Wicklow",
-    "venue": "Venue: Glenisk O'Connor Park",
-    "referee": "Referee: Niall Cullen",
-    "game": "football",
-    "score_1": "2-13",
-    "score_2": "0-11"
-  },
-  {
-    "team_1": "Laois",
-    "team_2": "Waterford",
-    "venue": "Venue: Laois Hire O'Moore Park, Portlaoise",
-    "referee": "Referee: Derek O Mahoney",
-    "game": "football",
-    "score_1": "0-28",
-    "score_2": "1-16"
-  },
-  {
-    "team_1": "Kildare",
-    "team_2": "Leitrim",
-    "venue": "Venue: Cedral St Conleth's Newbridge",
-    "referee": "Referee: Liam Devenney",
-    "game": "football",
-    "score_1": "0-36",
-    "score_2": "0-11"
-  },
-  {
-    "team_1": "Wexford",
-    "team_2": "Longford",
-    "venue": "Venue: Chadwicks Wexford Park",
-    "referee": "Referee: Brendan Griffin",
-    "game": "football",
-    "score_1": "2-24",
-    "score_2": "1-18"
   },
   {
     "team_1": "Meath",
@@ -257,116 +85,9 @@
     "venue": "Venue: P\u00e1irc an Chr\u00f3caigh",
     "referee": "Referee: Martin McNally",
     "game": "football",
+    "url": "/football/leinster-gaa-football-senior-championship/meath-louth/2907221",
     "score_1": "1-18",
     "score_2": "3-14"
-  },
-  {
-    "team_1": "Roscommon",
-    "team_2": "Fermanagh",
-    "venue": "Venue: King & Moffatt Dr Hyde Park, Roscommon",
-    "referee": "Referee: James Clarke",
-    "game": "hurling",
-    "score_1": "4-27",
-    "score_2": "0-22"
-  },
-  {
-    "team_1": "Warwickshire",
-    "team_2": "Leitrim",
-    "venue": "Venue: P\u00e1irc na h\u00c9ireann, Birmingham",
-    "referee": "Referee: Aidan Mc Aleer",
-    "game": "hurling",
-    "score_1": "2-17",
-    "score_2": "0-18"
-  },
-  {
-    "team_1": "Kerry",
-    "team_2": "Tyrone",
-    "venue": "Venue: Laois Hire O'Moore Park, Portlaoise",
-    "referee": "Referee: Barry Judge",
-    "game": "football",
-    "score_1": "0-14",
-    "score_2": "2-14"
-  },
-  {
-    "team_1": "Limerick",
-    "team_2": "Monaghan",
-    "venue": "Venue: Moorefield",
-    "referee": "Referee: Christopher Ryan",
-    "game": "football",
-    "score_1": "0-24",
-    "score_2": "3-17"
-  },
-  {
-    "team_1": "Fermanagh",
-    "team_2": "Longford",
-    "venue": "Venue: Shamrock Park, Roslea",
-    "referee": "Referee: Neil Mc Geown",
-    "game": "football",
-    "score_1": "0-11",
-    "score_2": "1-10"
-  },
-  {
-    "team_1": "Laois",
-    "team_2": "Kerry",
-    "venue": "Venue: Laois Hire O'Moore Park, Portlaoise",
-    "referee": "Referee: Brian Keon",
-    "game": "hurling",
-    "score_1": "5-28",
-    "score_2": "1-21"
-  },
-  {
-    "team_1": "Sligo",
-    "team_2": "Tipperary",
-    "venue": "Venue: Tubbercurry",
-    "referee": "Referee: Sean Hurson",
-    "game": "football",
-    "score_1": "2-15",
-    "score_2": "2-10"
-  },
-  {
-    "team_1": "Westmeath",
-    "team_2": "Antrim",
-    "venue": "Venue: TEG Cusack Park, Mullingar",
-    "referee": "Referee: Thomas Murphy",
-    "game": "football",
-    "score_1": "4-24",
-    "score_2": "1-17"
-  },
-  {
-    "team_1": "Fermanagh",
-    "team_2": "Carlow",
-    "venue": "Venue: Brewster Park, Enniskillen",
-    "referee": "Referee: Barry Cassidy",
-    "game": "football",
-    "score_1": "2-18",
-    "score_2": "3-18"
-  },
-  {
-    "team_1": "Leitrim",
-    "team_2": "Westmeath",
-    "venue": "Venue: King & Moffatt Dr Hyde Park, Roscommon",
-    "referee": "Referee: Diarmuid Boylan",
-    "game": "football",
-    "score_1": "0-17",
-    "score_2": "3-20"
-  },
-  {
-    "team_1": "Mayo",
-    "team_2": "Louth",
-    "venue": "Venue: Glennon Brothers Pearse Park",
-    "referee": "Referee: Conor Dourneen",
-    "game": "football",
-    "score_1": "0-17",
-    "score_2": "2-12"
-  },
-  {
-    "team_1": "Meath",
-    "team_2": "Galway",
-    "venue": "Venue: P\u00e1irc Tailteann, Navan",
-    "referee": "Referee: Margaret Farrelly",
-    "game": "football",
-    "score_1": "2-17",
-    "score_2": "2-16"
   },
   {
     "team_1": "Kerry",
@@ -374,6 +95,7 @@
     "venue": "Venue: Fitzgerald Stadium",
     "referee": "Referee: David Coldrick",
     "game": "football",
+    "url": "/football/gaa-football-all-ireland-senior-championship/kerry-roscommon/2907091",
     "score_1": "3-18",
     "score_2": "0-17"
   },
@@ -383,6 +105,7 @@
     "venue": "Venue: Pearse Stadium",
     "referee": "Referee: David Gough",
     "game": "football",
+    "url": "/football/gaa-football-all-ireland-senior-championship/galway-dublin/2907115",
     "score_1": "2-14",
     "score_2": "1-18"
   },
@@ -392,6 +115,7 @@
     "venue": "Venue: Pearse Stadium",
     "referee": "Referee: Thomas Gleeson",
     "game": "hurling",
+    "url": "/hurling/leinster-gaa-hurling-senior-championship/galway-antrim/2907231",
     "score_1": "6-27",
     "score_2": "1-14"
   },
@@ -401,197 +125,9 @@
     "venue": "Venue: Chadwicks Wexford Park",
     "referee": "Referee: Shane Hynes",
     "game": "hurling",
+    "url": "/hurling/leinster-gaa-hurling-senior-championship/wexford-offaly/2907229",
     "score_1": "2-17",
     "score_2": "1-17"
-  },
-  {
-    "team_1": "Derry",
-    "team_2": "Wicklow",
-    "venue": "Venue: Celtic Park",
-    "referee": "Referee: Matthew Farrell",
-    "game": "hurling",
-    "score_1": "2-30",
-    "score_2": "1-13"
-  },
-  {
-    "team_1": "Meath",
-    "team_2": "Donegal",
-    "venue": "Venue: Trim",
-    "referee": "Referee: Conor Doyle",
-    "game": "hurling",
-    "score_1": "3-14",
-    "score_2": "0-28"
-  },
-  {
-    "team_1": "London",
-    "team_2": "Tyrone",
-    "venue": "Venue: McGovern Park, Ruislip",
-    "referee": "Referee: Kevin Parke",
-    "game": "hurling",
-    "score_1": "4-20",
-    "score_2": "1-13"
-  },
-  {
-    "team_1": "Fermanagh",
-    "team_2": "Mayo",
-    "venue": "Venue: Brewster Park, Enniskillen",
-    "referee": "Referee: Ciaran Mc Closkey",
-    "game": "hurling",
-    "score_1": "1-22",
-    "score_2": "3-16"
-  },
-  {
-    "team_1": "Sligo",
-    "team_2": "Armagh",
-    "venue": "Venue: Kilcoyne Park",
-    "referee": "Referee: James Judge",
-    "game": "hurling",
-    "score_1": "3-13",
-    "score_2": "0-23"
-  },
-  {
-    "team_1": "Louth",
-    "team_2": "Roscommon",
-    "venue": "Venue: P\u00e1irc Naomh Br\u00edd, Dowdallshill",
-    "referee": "Referee: Matthew Redmond",
-    "game": "hurling",
-    "score_1": "0-20",
-    "score_2": "4-17"
-  },
-  {
-    "team_1": "Warwickshire",
-    "team_2": "Lancashire",
-    "venue": "Venue: P\u00e1irc na h\u00c9ireann, Birmingham",
-    "referee": "Referee: James Clarke",
-    "game": "hurling",
-    "score_1": "4-13",
-    "score_2": "0-26"
-  },
-  {
-    "team_1": "Monaghan",
-    "team_2": "Longford",
-    "venue": "Venue: Grattan Park, Inniskeen",
-    "referee": "Referee: Aidan Mc Aleer",
-    "game": "hurling",
-    "score_1": "2-20",
-    "score_2": "2-20"
-  },
-  {
-    "team_1": "Cavan",
-    "team_2": "Leitrim",
-    "venue": "Venue: Kingspan Breffni, Cavan",
-    "referee": "Referee: Kevin Brady",
-    "game": "hurling",
-    "score_1": "1-10",
-    "score_2": "2-15"
-  },
-  {
-    "team_1": "Longford",
-    "team_2": "Carlow",
-    "venue": "Venue: Glennon Brothers Pearse Park",
-    "referee": "Referee: Aaron Clogher",
-    "game": "football",
-    "score_1": "3-18",
-    "score_2": "2-19"
-  },
-  {
-    "team_1": "Laois",
-    "team_2": "Antrim",
-    "venue": "Venue: O'Raghallaighs/St Nicholas",
-    "referee": "Referee: Cathal Sweeney",
-    "game": "football",
-    "score_1": "3-20",
-    "score_2": "0-15"
-  },
-  {
-    "team_1": "Wicklow",
-    "team_2": "Waterford",
-    "venue": "Venue: Echelon COE Ballinakill",
-    "referee": "Referee: John Hickey",
-    "game": "football",
-    "score_1": "3-13",
-    "score_2": "1-3"
-  },
-  {
-    "team_1": "Derry",
-    "team_2": "Tipperary",
-    "venue": "Venue: Stamullen",
-    "referee": "Referee: Patrick Coyle",
-    "game": "football",
-    "score_1": "3-13",
-    "score_2": "0-16"
-  },
-  {
-    "team_1": "Leitrim",
-    "team_2": "Down",
-    "venue": "Venue: Avant Money P\u00e1irc Se\u00e1n Mac Diarmada",
-    "referee": "Referee: Ronan Hynes",
-    "game": "football",
-    "score_1": "1-16",
-    "score_2": "0-19"
-  },
-  {
-    "team_1": "Westmeath",
-    "team_2": "Armagh",
-    "venue": "Venue: Kinnegad",
-    "referee": "Referee: Eamon O Connor",
-    "game": "football",
-    "score_1": "0-8",
-    "score_2": "2-17"
-  },
-  {
-    "team_1": "Down",
-    "team_2": "Kerry",
-    "venue": "Venue: Ballycran",
-    "referee": "Referee: Chris Mooney",
-    "game": "hurling",
-    "score_1": "2-26",
-    "score_2": "2-19"
-  },
-  {
-    "team_1": "Westmeath",
-    "team_2": "Carlow",
-    "venue": "Venue: TEG Cusack Park, Mullingar",
-    "referee": "Referee: James Owens",
-    "game": "hurling",
-    "score_1": "4-22",
-    "score_2": "7-23"
-  },
-  {
-    "team_1": "Waterford",
-    "team_2": "Offaly",
-    "venue": "Venue: Walsh Park, Waterford",
-    "referee": "Referee: Conor Lane",
-    "game": "football",
-    "score_1": "1-13",
-    "score_2": "1-18"
-  },
-  {
-    "team_1": "Wicklow",
-    "team_2": "Laois",
-    "venue": "Venue: Echelon Park, Aughrim",
-    "referee": "Referee: Fergal Kelly",
-    "game": "football",
-    "score_1": "0-21",
-    "score_2": "0-16"
-  },
-  {
-    "team_1": "Tipperary",
-    "team_2": "Kildare",
-    "venue": "Venue: Clonmel",
-    "referee": "Referee: Jerome Henry",
-    "game": "football",
-    "score_1": "1-11",
-    "score_2": "3-19"
-  },
-  {
-    "team_1": "Antrim",
-    "team_2": "Limerick",
-    "venue": "Venue: Corrigan Park, Belfast",
-    "referee": "Referee: Kieran Eannetta",
-    "game": "football",
-    "score_1": "1-10",
-    "score_2": "1-18"
   },
   {
     "team_1": "Clare",
@@ -599,6 +135,7 @@
     "venue": "Venue: Zimmer Biomet P\u00e1irc Ch\u00edos\u00f3g, Ennis",
     "referee": "Referee: Paddy Neilan",
     "game": "football",
+    "url": "/football/gaa-football-all-ireland-senior-championship/clare-down/2907101",
     "score_1": "1-16",
     "score_2": "3-27"
   },
@@ -608,6 +145,7 @@
     "venue": "Venue: Hastings Insurance MacHale Park, Castlebar",
     "referee": "Referee: Paul Faloon",
     "game": "football",
+    "url": "/football/gaa-football-all-ireland-senior-championship/mayo-cavan/2907077",
     "score_1": "1-14",
     "score_2": "1-17"
   },
@@ -617,6 +155,7 @@
     "venue": "Venue: UPMC Nowlan Park",
     "referee": "Referee: Michael Kennedy",
     "game": "hurling",
+    "url": "/hurling/leinster-gaa-hurling-senior-championship/kilkenny-dublin/2907233",
     "score_1": "5-19",
     "score_2": "3-21"
   },
@@ -626,6 +165,7 @@
     "venue": "Venue: FBD Semple Stadium, Thurles",
     "referee": "Referee: Sean Stack",
     "game": "hurling",
+    "url": "/hurling/munster-gaa-hurling-senior-championship/tipperary-waterford/2907263",
     "score_1": "1-30",
     "score_2": "1-21"
   },
@@ -635,70 +175,8 @@
     "venue": "Venue: TUS Gaelic Grounds",
     "referee": "Referee: Liam Gordon",
     "game": "hurling",
+    "url": "/hurling/munster-gaa-hurling-senior-championship/limerick-cork/2907265",
     "score_1": "3-26",
     "score_2": "1-16"
-  },
-  {
-    "team_1": "Sligo",
-    "team_2": "Clare",
-    "venue": "Venue: Kilcoyne Park",
-    "referee": "Referee: John Glavey",
-    "game": "football",
-    "score_1": "2-10",
-    "score_2": "1-6"
-  },
-  {
-    "team_1": "Laois",
-    "team_2": "Kildare",
-    "venue": "Venue: Laois Hire O'Moore Park, Portlaoise",
-    "referee": "Referee: Niall Malone",
-    "game": "hurling",
-    "score_1": "1-18",
-    "score_2": "4-20"
-  },
-  {
-    "team_1": "Leitrim",
-    "team_2": "Sligo",
-    "venue": "Venue: Avant Money P\u00e1irc Se\u00e1n Mac Diarmada",
-    "referee": "Referee: James Molloy",
-    "game": "football",
-    "score_1": "1-18",
-    "score_2": "2-19"
-  },
-  {
-    "team_1": "London",
-    "team_2": "Westmeath",
-    "venue": "Venue: McGovern Park, Ruislip",
-    "referee": "Referee: Barry Tiernan",
-    "game": "football",
-    "score_1": "1-10",
-    "score_2": "0-26"
-  },
-  {
-    "team_1": "Carlow",
-    "team_2": "Wexford",
-    "venue": "Venue: Netwatch Cullen Park",
-    "referee": "Referee: David Murnane",
-    "game": "football",
-    "score_1": "2-16",
-    "score_2": "1-19"
-  },
-  {
-    "team_1": "Longford",
-    "team_2": "Fermanagh",
-    "venue": "Venue: Glennon Brothers Pearse Park",
-    "referee": "Referee: Joe Mc Quillan",
-    "game": "football",
-    "score_1": "0-7",
-    "score_2": "2-19"
-  },
-  {
-    "team_1": "Monaghan",
-    "team_2": "Westmeath",
-    "venue": "Venue: Kingspan Breffni, Cavan",
-    "referee": "Referee: Pat Clarke",
-    "game": "football",
-    "score_1": "1-15",
-    "score_2": "1-15"
   }
 ]

@@ -4,230 +4,103 @@
     "team_2": "Cork",
     "venue": "Venue: P\u00e1irc Tailteann, Navan",
     "referee": "Referee: Noel Mooney",
-    "game": "football"
+    "game": "football",
+    "url": "/football/gaa-football-all-ireland-senior-championship/meath-cork/2907087"
   },
   {
     "team_1": "Louth",
     "team_2": "Monaghan",
     "venue": "Venue: Cedral St Conleth's Newbridge",
     "referee": "Referee: Brendan Cawley",
-    "game": "football"
+    "game": "football",
+    "url": "/football/gaa-football-all-ireland-senior-championship/louth-monaghan/2907103"
   },
   {
     "team_1": "Armagh",
     "team_2": "Derry",
     "venue": "Venue: BOX-IT Athletic Grounds, Armagh",
     "referee": "Referee: Sean Hurson",
-    "game": "football"
+    "game": "football",
+    "url": "/football/gaa-football-all-ireland-senior-championship/armagh-derry/2907111"
   },
   {
     "team_1": "Donegal",
     "team_2": "Tyrone",
     "venue": "Venue: Ballybofey",
     "referee": "Referee: Martin McNally",
-    "game": "football"
-  },
-  {
-    "team_1": "Monaghan",
-    "team_2": "New York",
-    "venue": "Venue: TEG Cusack Park, Mullingar",
-    "referee": "Referee: Alan Tierney",
-    "game": "hurling"
-  },
-  {
-    "team_1": "Clare",
-    "team_2": "Dublin",
-    "venue": "Venue: FBD Semple Stadium, Thurles",
-    "referee": "",
-    "game": "hurling"
-  },
-  {
-    "team_1": "Wexford",
-    "team_2": "Limerick",
-    "venue": "Venue: FBD Semple Stadium, Thurles",
-    "referee": "Referee: Ciaran O Donovan",
-    "game": "hurling"
-  },
-  {
-    "team_1": "Monaghan",
-    "team_2": "Meath",
-    "venue": "Venue: Carrickmacross",
-    "referee": "Referee: Margaret Farrelly",
-    "game": "football"
-  },
-  {
-    "team_1": "Derry",
-    "team_2": "Donegal",
-    "venue": "Venue: Celtic Park",
-    "referee": "",
-    "game": "football"
-  },
-  {
-    "team_1": "Armagh",
-    "team_2": "Dublin",
-    "venue": "Venue: Crossmaglen",
-    "referee": "Referee: Christopher Brady",
-    "game": "football"
-  },
-  {
-    "team_1": "Carlow",
-    "team_2": "Laois",
-    "venue": "Venue: Netwatch Cullen Park",
-    "referee": "Referee: Caymon Flynn",
-    "game": "hurling"
-  },
-  {
-    "team_1": "Kildare",
-    "team_2": "Down",
-    "venue": "Venue: Cedral St Conleth's Newbridge",
-    "referee": "Referee: Brian Keon",
-    "game": "hurling"
-  },
-  {
-    "team_1": "Kerry",
-    "team_2": "Westmeath",
-    "venue": "Venue: Austin Stack Park",
-    "referee": "Referee: Niall Malone",
-    "game": "hurling"
+    "game": "football",
+    "url": "/football/gaa-football-all-ireland-senior-championship/donegal-tyrone/2907079"
   },
   {
     "team_1": "Offaly",
     "team_2": "Antrim",
     "venue": "Venue: Glenisk O'Connor Park",
     "referee": "Referee: Michael Kennedy",
-    "game": "hurling"
+    "game": "hurling",
+    "url": "/hurling/leinster-gaa-hurling-senior-championship/offaly-antrim/2907223"
   },
   {
     "team_1": "Dublin",
     "team_2": "Galway",
     "venue": "Venue: Parnell Park",
     "referee": "Referee: Colm Lyons",
-    "game": "hurling"
+    "game": "hurling",
+    "url": "/hurling/leinster-gaa-hurling-senior-championship/dublin-galway/2907225"
   },
   {
     "team_1": "Wexford",
     "team_2": "Kilkenny",
     "venue": "Venue: Chadwicks Wexford Park",
     "referee": "Referee: Sean Stack",
-    "game": "hurling"
+    "game": "hurling",
+    "url": "/hurling/leinster-gaa-hurling-senior-championship/wexford-kilkenny/2907227"
   },
   {
     "team_1": "Cork",
     "team_2": "Waterford",
     "venue": "Venue: SuperValu P\u00e1irc U\u00ed Chaoimh, Cork",
     "referee": "Referee: Johnny Murphy",
-    "game": "hurling"
+    "game": "hurling",
+    "url": "/hurling/munster-gaa-hurling-senior-championship/cork-waterford/2907257"
   },
   {
     "team_1": "Limerick",
     "team_2": "Clare",
     "venue": "Venue: TUS Gaelic Grounds",
     "referee": "Referee: Thomas Walsh",
-    "game": "hurling"
-  },
-  {
-    "team_1": "Kildare",
-    "team_2": "Leitrim",
-    "venue": "Venue: Manguard Park, Hawkfield, Kildare",
-    "referee": "Referee: Ian Howley",
-    "game": "football"
-  },
-  {
-    "team_1": "Longford",
-    "team_2": "Sligo",
-    "venue": "Venue: Annaduff",
-    "referee": "Referee: Shane Corcoran",
-    "game": "football"
-  },
-  {
-    "team_1": "Wicklow",
-    "team_2": "Laois",
-    "venue": "Venue: Fenagh Netwatch Training Centre",
-    "referee": "Referee: Enda Kenny",
-    "game": "football"
-  },
-  {
-    "team_1": "Louth",
-    "team_2": "Tyrone",
-    "venue": "Venue: BOX-IT Athletic Grounds, Armagh",
-    "referee": "",
-    "game": "football"
+    "game": "hurling",
+    "url": "/hurling/munster-gaa-hurling-senior-championship/limerick-clare/2907259"
   },
   {
     "team_1": "Cork",
     "team_2": "Kerry",
     "venue": "Venue: SuperValu P\u00e1irc U\u00ed Chaoimh, Cork",
     "referee": "",
-    "game": "football"
+    "game": "football",
+    "url": "/football/gaa-football-all-ireland-senior-championship/cork-kerry/2907089"
   },
   {
     "team_1": "Roscommon",
     "team_2": "Meath",
     "venue": "Venue: King & Moffatt Dr Hyde Park, Roscommon",
     "referee": "",
-    "game": "football"
+    "game": "football",
+    "url": "/football/gaa-football-all-ireland-senior-championship/roscommon-meath/2907085"
   },
   {
     "team_1": "Down",
     "team_2": "Louth",
     "venue": "Venue: P\u00e1irc Esler, Newry",
     "referee": "",
-    "game": "football"
+    "game": "football",
+    "url": "/football/gaa-football-all-ireland-senior-championship/down-louth/2907099"
   },
   {
     "team_1": "Tyrone",
     "team_2": "Mayo",
     "venue": "Venue: O'Neills Healy Park, Omagh",
     "referee": "",
-    "game": "football"
-  },
-  {
-    "team_1": "Derry",
-    "team_2": "London",
-    "venue": "Venue: P\u00e1irc an Chr\u00f3caigh",
-    "referee": "",
-    "game": "hurling"
-  },
-  {
-    "team_1": "Mayo",
-    "team_2": "Roscommon",
-    "venue": "Venue: P\u00e1irc an Chr\u00f3caigh",
-    "referee": "",
-    "game": "hurling"
-  },
-  {
-    "team_1": "Cavan",
-    "team_2": "Semi-Final Winner",
-    "venue": "Venue: P\u00e1irc an Chr\u00f3caigh",
-    "referee": "",
-    "game": "hurling"
-  },
-  {
-    "team_1": "Kilkenny",
-    "team_2": "Tipperary",
-    "venue": "Venue: TBC",
-    "referee": "",
-    "game": "hurling"
-  },
-  {
-    "team_1": "Westmeath",
-    "team_2": "Limerick",
-    "venue": "Venue: Laois Hire O'Moore Park, Portlaoise",
-    "referee": "",
-    "game": "football"
-  },
-  {
-    "team_1": "Wicklow",
-    "team_2": "Waterford",
-    "venue": "Venue: Chadwicks Wexford Park",
-    "referee": "",
-    "game": "football"
-  },
-  {
-    "team_1": "Offaly",
-    "team_2": "Laois",
-    "venue": "Venue: Cedral St Conleth's Newbridge",
-    "referee": "",
-    "game": "football"
+    "game": "football",
+    "url": "/football/gaa-football-all-ireland-senior-championship/tyrone-mayo/2907073"
   }
 ]

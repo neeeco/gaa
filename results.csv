@@ -1,79 +1,19 @@
-team_1,team_2,venue,referee,game,score_1,score_2
-Waterford,Limerick,"Venue: Walsh Park, Waterford",Referee: Colm Lyons,hurling,0-22,0-28
-Down,Tyrone,"Venue: Kingspan Breffni, Cavan",Referee: Kevin Brady,hurling,1-22,4-11
-Armagh,Monaghan,"Venue: Kingspan Breffni, Cavan",Referee: Michael Connolly,hurling,2-21,1-10
-Mayo,Galway,"Venue: Hastings Insurance MacHale Park, Castlebar",Referee: Paddy Neilan,football,1-15,1-17
-Kerry,Clare,Venue: Fitzgerald Stadium,Referee: Noel Mooney,football,4-20,0-21
-Sligo,London,Venue: Connacht GAA Centre,Referee: Brendan Healy,football,7-21,1-7
-Armagh,Donegal,"Venue: St. Tiernach's Park, Clones",Referee: Brendan Cawley,football,0-28,2-23
-Galway,Wexford,Venue: Pearse Stadium,Referee: Thomas Walsh,hurling,1-29,2-16
-Antrim,Dublin,"Venue: Corrigan Park, Belfast",Referee: Liam Gordon,hurling,0-19,3-25
-Kilkenny,Offaly,Venue: UPMC Nowlan Park,Referee: Colm McDonald,hurling,4-25,2-16
-Clare,Tipperary,"Venue: Zimmer Biomet Páirc Chíosóg, Ennis",Referee: James Owens,hurling,2-21,4-18
-Donegal,London,Venue: Letterkenny,Referee: James Judge,hurling,1-15,2-19
-Tyrone,Derry,"Venue: Eoghan Ruadh, Dungannon",Referee: Peter Owens,hurling,0-10,1-30
-Wicklow,Meath,"Venue: Echelon Park, Aughrim",Referee: Padraig Dunne,hurling,3-17,0-16
-Armagh,Louth,"Venue: BOX-IT Athletic Grounds, Armagh",Referee: Kevin Parke,hurling,2-15,0-19
-Mayo,Sligo,"Venue: Hastings Insurance MacHale Park, Castlebar",Referee: Matthew Redmond,hurling,1-32,1-17
-Lancashire,Monaghan,Venue: Abbottstown - GAA Centre of Excellence,Referee: Nicholas Barry,hurling,2-14,4-15
-Longford,Cavan,Venue: Glennon Brothers Pearse Park,Referee: Conor Doyle,hurling,3-17,3-29
-Waterford,Kilkenny,Venue: Lemybrien,Referee: Brian Crowley,football,2-18,0-8
-Wexford,Laois,Venue: McCauley Park Bellefield,Referee: Lar Murphy,football,1-10,2-14
-Limerick,Wicklow,Venue: Mick Neville Park Rathkeale,Referee: Gary Twomey,football,0-7,3-11
-Carlow,Kildare,Venue: Netwatch Cullen Park,Referee: Eamonn Furlong,hurling,1-20,2-23
-Westmeath,Down,"Venue: TEG Cusack Park, Mullingar",Referee: Colum Cunning,hurling,2-24,0-20
-Limerick,London,Venue: Newcastle West,Referee: Seamus Mulhare,football,0-25,1-15
-Offaly,Wicklow,Venue: Glenisk O'Connor Park,Referee: Niall Cullen,football,2-13,0-11
-Laois,Waterford,"Venue: Laois Hire O'Moore Park, Portlaoise",Referee: Derek O Mahoney,football,0-28,1-16
-Kildare,Leitrim,Venue: Cedral St Conleth's Newbridge,Referee: Liam Devenney,football,0-36,0-11
-Wexford,Longford,Venue: Chadwicks Wexford Park,Referee: Brendan Griffin,football,2-24,1-18
-Meath,Louth,Venue: Páirc an Chrócaigh,Referee: Martin McNally,football,1-18,3-14
-Roscommon,Fermanagh,"Venue: King & Moffatt Dr Hyde Park, Roscommon",Referee: James Clarke,hurling,4-27,0-22
-Warwickshire,Leitrim,"Venue: Páirc na hÉireann, Birmingham",Referee: Aidan Mc Aleer,hurling,2-17,0-18
-Kerry,Tyrone,"Venue: Laois Hire O'Moore Park, Portlaoise",Referee: Barry Judge,football,0-14,2-14
-Limerick,Monaghan,Venue: Moorefield,Referee: Christopher Ryan,football,0-24,3-17
-Fermanagh,Longford,"Venue: Shamrock Park, Roslea",Referee: Neil Mc Geown,football,0-11,1-10
-Laois,Kerry,"Venue: Laois Hire O'Moore Park, Portlaoise",Referee: Brian Keon,hurling,5-28,1-21
-Sligo,Tipperary,Venue: Tubbercurry,Referee: Sean Hurson,football,2-15,2-10
-Westmeath,Antrim,"Venue: TEG Cusack Park, Mullingar",Referee: Thomas Murphy,football,4-24,1-17
-Fermanagh,Carlow,"Venue: Brewster Park, Enniskillen",Referee: Barry Cassidy,football,2-18,3-18
-Leitrim,Westmeath,"Venue: King & Moffatt Dr Hyde Park, Roscommon",Referee: Diarmuid Boylan,football,0-17,3-20
-Mayo,Louth,Venue: Glennon Brothers Pearse Park,Referee: Conor Dourneen,football,0-17,2-12
-Meath,Galway,"Venue: Páirc Tailteann, Navan",Referee: Margaret Farrelly,football,2-17,2-16
-Kerry,Roscommon,Venue: Fitzgerald Stadium,Referee: David Coldrick,football,3-18,0-17
-Galway,Dublin,Venue: Pearse Stadium,Referee: David Gough,football,2-14,1-18
-Galway,Antrim,Venue: Pearse Stadium,Referee: Thomas Gleeson,hurling,6-27,1-14
-Wexford,Offaly,Venue: Chadwicks Wexford Park,Referee: Shane Hynes,hurling,2-17,1-17
-Derry,Wicklow,Venue: Celtic Park,Referee: Matthew Farrell,hurling,2-30,1-13
-Meath,Donegal,Venue: Trim,Referee: Conor Doyle,hurling,3-14,0-28
-London,Tyrone,"Venue: McGovern Park, Ruislip",Referee: Kevin Parke,hurling,4-20,1-13
-Fermanagh,Mayo,"Venue: Brewster Park, Enniskillen",Referee: Ciaran Mc Closkey,hurling,1-22,3-16
-Sligo,Armagh,Venue: Kilcoyne Park,Referee: James Judge,hurling,3-13,0-23
-Louth,Roscommon,"Venue: Páirc Naomh Bríd, Dowdallshill",Referee: Matthew Redmond,hurling,0-20,4-17
-Warwickshire,Lancashire,"Venue: Páirc na hÉireann, Birmingham",Referee: James Clarke,hurling,4-13,0-26
-Monaghan,Longford,"Venue: Grattan Park, Inniskeen",Referee: Aidan Mc Aleer,hurling,2-20,2-20
-Cavan,Leitrim,"Venue: Kingspan Breffni, Cavan",Referee: Kevin Brady,hurling,1-10,2-15
-Longford,Carlow,Venue: Glennon Brothers Pearse Park,Referee: Aaron Clogher,football,3-18,2-19
-Laois,Antrim,Venue: O'Raghallaighs/St Nicholas,Referee: Cathal Sweeney,football,3-20,0-15
-Wicklow,Waterford,Venue: Echelon COE Ballinakill,Referee: John Hickey,football,3-13,1-3
-Derry,Tipperary,Venue: Stamullen,Referee: Patrick Coyle,football,3-13,0-16
-Leitrim,Down,Venue: Avant Money Páirc Seán Mac Diarmada,Referee: Ronan Hynes,football,1-16,0-19
-Westmeath,Armagh,Venue: Kinnegad,Referee: Eamon O Connor,football,0-8,2-17
-Down,Kerry,Venue: Ballycran,Referee: Chris Mooney,hurling,2-26,2-19
-Westmeath,Carlow,"Venue: TEG Cusack Park, Mullingar",Referee: James Owens,hurling,4-22,7-23
-Waterford,Offaly,"Venue: Walsh Park, Waterford",Referee: Conor Lane,football,1-13,1-18
-Wicklow,Laois,"Venue: Echelon Park, Aughrim",Referee: Fergal Kelly,football,0-21,0-16
-Tipperary,Kildare,Venue: Clonmel,Referee: Jerome Henry,football,1-11,3-19
-Antrim,Limerick,"Venue: Corrigan Park, Belfast",Referee: Kieran Eannetta,football,1-10,1-18
-Clare,Down,"Venue: Zimmer Biomet Páirc Chíosóg, Ennis",Referee: Paddy Neilan,football,1-16,3-27
-Mayo,Cavan,"Venue: Hastings Insurance MacHale Park, Castlebar",Referee: Paul Faloon,football,1-14,1-17
-Kilkenny,Dublin,Venue: UPMC Nowlan Park,Referee: Michael Kennedy,hurling,5-19,3-21
-Tipperary,Waterford,"Venue: FBD Semple Stadium, Thurles",Referee: Sean Stack,hurling,1-30,1-21
-Limerick,Cork,Venue: TUS Gaelic Grounds,Referee: Liam Gordon,hurling,3-26,1-16
-Sligo,Clare,Venue: Kilcoyne Park,Referee: John Glavey,football,2-10,1-6
-Laois,Kildare,"Venue: Laois Hire O'Moore Park, Portlaoise",Referee: Niall Malone,hurling,1-18,4-20
-Leitrim,Sligo,Venue: Avant Money Páirc Seán Mac Diarmada,Referee: James Molloy,football,1-18,2-19
-London,Westmeath,"Venue: McGovern Park, Ruislip",Referee: Barry Tiernan,football,1-10,0-26
-Carlow,Wexford,Venue: Netwatch Cullen Park,Referee: David Murnane,football,2-16,1-19
-Longford,Fermanagh,Venue: Glennon Brothers Pearse Park,Referee: Joe Mc Quillan,football,0-7,2-19
-Monaghan,Westmeath,"Venue: Kingspan Breffni, Cavan",Referee: Pat Clarke,football,1-15,1-15
+team_1,team_2,venue,referee,game,url,score_1,score_2
+Waterford,Limerick,"Venue: Walsh Park, Waterford",Referee: Colm Lyons,hurling,/hurling/munster-gaa-hurling-senior-championship/waterford-limerick/2907271,0-22,0-28
+Mayo,Galway,"Venue: Hastings Insurance MacHale Park, Castlebar",Referee: Paddy Neilan,football,/football/connacht-gaa-football-senior-championship/mayo-galway/2907201,1-15,1-17
+Kerry,Clare,Venue: Fitzgerald Stadium,Referee: Noel Mooney,football,/football/munster-gaa-football-senior-championship/kerry-clare/2906909,4-20,0-21
+Armagh,Donegal,"Venue: St. Tiernach's Park, Clones",Referee: Brendan Cawley,football,/football/ulster-gaa-football-senior-championship/armagh-donegal/2906899,0-28,2-23
+Galway,Wexford,Venue: Pearse Stadium,Referee: Thomas Walsh,hurling,/hurling/leinster-gaa-hurling-senior-championship/galway-wexford/2907239,1-29,2-16
+Antrim,Dublin,"Venue: Corrigan Park, Belfast",Referee: Liam Gordon,hurling,/hurling/leinster-gaa-hurling-senior-championship/antrim-dublin/2907237,0-19,3-25
+Kilkenny,Offaly,Venue: UPMC Nowlan Park,Referee: Colm McDonald,hurling,/hurling/leinster-gaa-hurling-senior-championship/kilkenny-offaly/2907235,4-25,2-16
+Clare,Tipperary,"Venue: Zimmer Biomet Páirc Chíosóg, Ennis",Referee: James Owens,hurling,/hurling/munster-gaa-hurling-senior-championship/clare-tipperary/2907269,2-21,4-18
+Meath,Louth,Venue: Páirc an Chrócaigh,Referee: Martin McNally,football,/football/leinster-gaa-football-senior-championship/meath-louth/2907221,1-18,3-14
+Kerry,Roscommon,Venue: Fitzgerald Stadium,Referee: David Coldrick,football,/football/gaa-football-all-ireland-senior-championship/kerry-roscommon/2907091,3-18,0-17
+Galway,Dublin,Venue: Pearse Stadium,Referee: David Gough,football,/football/gaa-football-all-ireland-senior-championship/galway-dublin/2907115,2-14,1-18
+Galway,Antrim,Venue: Pearse Stadium,Referee: Thomas Gleeson,hurling,/hurling/leinster-gaa-hurling-senior-championship/galway-antrim/2907231,6-27,1-14
+Wexford,Offaly,Venue: Chadwicks Wexford Park,Referee: Shane Hynes,hurling,/hurling/leinster-gaa-hurling-senior-championship/wexford-offaly/2907229,2-17,1-17
+Clare,Down,"Venue: Zimmer Biomet Páirc Chíosóg, Ennis",Referee: Paddy Neilan,football,/football/gaa-football-all-ireland-senior-championship/clare-down/2907101,1-16,3-27
+Mayo,Cavan,"Venue: Hastings Insurance MacHale Park, Castlebar",Referee: Paul Faloon,football,/football/gaa-football-all-ireland-senior-championship/mayo-cavan/2907077,1-14,1-17
+Kilkenny,Dublin,Venue: UPMC Nowlan Park,Referee: Michael Kennedy,hurling,/hurling/leinster-gaa-hurling-senior-championship/kilkenny-dublin/2907233,5-19,3-21
+Tipperary,Waterford,"Venue: FBD Semple Stadium, Thurles",Referee: Sean Stack,hurling,/hurling/munster-gaa-hurling-senior-championship/tipperary-waterford/2907263,1-30,1-21
+Limerick,Cork,Venue: TUS Gaelic Grounds,Referee: Liam Gordon,hurling,/hurling/munster-gaa-hurling-senior-championship/limerick-cork/2907265,3-26,1-16
