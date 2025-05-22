@@ -5,7 +5,8 @@
     "venue": "Venue: P\u00e1irc Tailteann, Navan",
     "referee": "Referee: Noel Mooney",
     "game": "football",
-    "url": "/football/gaa-football-all-ireland-senior-championship/meath-cork/2907087"
+    "url": "/football/gaa-football-all-ireland-senior-championship/meath-cork/2907087",
+    "date": "2025-05-24T00:00:00"
   },
   {
     "team_1": "Louth",
@@ -13,7 +14,8 @@
     "venue": "Venue: Cedral St Conleth's Newbridge",
     "referee": "Referee: Brendan Cawley",
     "game": "football",
-    "url": "/football/gaa-football-all-ireland-senior-championship/louth-monaghan/2907103"
+    "url": "/football/gaa-football-all-ireland-senior-championship/louth-monaghan/2907103",
+    "date": "2025-05-24T00:00:00"
   },
   {
     "team_1": "Armagh",
@@ -21,7 +23,8 @@
     "venue": "Venue: BOX-IT Athletic Grounds, Armagh",
     "referee": "Referee: Sean Hurson",
     "game": "football",
-    "url": "/football/gaa-football-all-ireland-senior-championship/armagh-derry/2907111"
+    "url": "/football/gaa-football-all-ireland-senior-championship/armagh-derry/2907111",
+    "date": "2025-05-24T00:00:00"
   },
   {
     "team_1": "Donegal",
@@ -29,7 +32,8 @@
     "venue": "Venue: Ballybofey",
     "referee": "Referee: Martin McNally",
     "game": "football",
-    "url": "/football/gaa-football-all-ireland-senior-championship/donegal-tyrone/2907079"
+    "url": "/football/gaa-football-all-ireland-senior-championship/donegal-tyrone/2907079",
+    "date": "2025-05-24T00:00:00"
   },
   {
     "team_1": "Offaly",
@@ -37,7 +41,8 @@
     "venue": "Venue: Glenisk O'Connor Park",
     "referee": "Referee: Michael Kennedy",
     "game": "hurling",
-    "url": "/hurling/leinster-gaa-hurling-senior-championship/offaly-antrim/2907223"
+    "url": "/hurling/leinster-gaa-hurling-senior-championship/offaly-antrim/2907223",
+    "date": "2025-05-25T00:00:00"
   },
   {
     "team_1": "Dublin",
@@ -45,7 +50,8 @@
     "venue": "Venue: Parnell Park",
     "referee": "Referee: Colm Lyons",
     "game": "hurling",
-    "url": "/hurling/leinster-gaa-hurling-senior-championship/dublin-galway/2907225"
+    "url": "/hurling/leinster-gaa-hurling-senior-championship/dublin-galway/2907225",
+    "date": "2025-05-25T00:00:00"
   },
   {
     "team_1": "Wexford",
@@ -53,7 +59,8 @@
     "venue": "Venue: Chadwicks Wexford Park",
     "referee": "Referee: Sean Stack",
     "game": "hurling",
-    "url": "/hurling/leinster-gaa-hurling-senior-championship/wexford-kilkenny/2907227"
+    "url": "/hurling/leinster-gaa-hurling-senior-championship/wexford-kilkenny/2907227",
+    "date": "2025-05-25T00:00:00"
   },
   {
     "team_1": "Cork",
@@ -61,7 +68,8 @@
     "venue": "Venue: SuperValu P\u00e1irc U\u00ed Chaoimh, Cork",
     "referee": "Referee: Johnny Murphy",
     "game": "hurling",
-    "url": "/hurling/munster-gaa-hurling-senior-championship/cork-waterford/2907257"
+    "url": "/hurling/munster-gaa-hurling-senior-championship/cork-waterford/2907257",
+    "date": "2025-05-25T00:00:00"
   },
   {
     "team_1": "Limerick",
@@ -69,7 +77,8 @@
     "venue": "Venue: TUS Gaelic Grounds",
     "referee": "Referee: Thomas Walsh",
     "game": "hurling",
-    "url": "/hurling/munster-gaa-hurling-senior-championship/limerick-clare/2907259"
+    "url": "/hurling/munster-gaa-hurling-senior-championship/limerick-clare/2907259",
+    "date": "2025-05-25T00:00:00"
   },
   {
     "team_1": "Cork",
@@ -77,7 +86,8 @@
     "venue": "Venue: SuperValu P\u00e1irc U\u00ed Chaoimh, Cork",
     "referee": "",
     "game": "football",
-    "url": "/football/gaa-football-all-ireland-senior-championship/cork-kerry/2907089"
+    "url": "/football/gaa-football-all-ireland-senior-championship/cork-kerry/2907089",
+    "date": "2025-05-31T00:00:00"
   },
   {
     "team_1": "Roscommon",
@@ -85,7 +95,8 @@
     "venue": "Venue: King & Moffatt Dr Hyde Park, Roscommon",
     "referee": "",
     "game": "football",
-    "url": "/football/gaa-football-all-ireland-senior-championship/roscommon-meath/2907085"
+    "url": "/football/gaa-football-all-ireland-senior-championship/roscommon-meath/2907085",
+    "date": "2025-05-31T00:00:00"
   },
   {
     "team_1": "Down",
@@ -93,7 +104,8 @@
     "venue": "Venue: P\u00e1irc Esler, Newry",
     "referee": "",
     "game": "football",
-    "url": "/football/gaa-football-all-ireland-senior-championship/down-louth/2907099"
+    "url": "/football/gaa-football-all-ireland-senior-championship/down-louth/2907099",
+    "date": "2025-05-31T00:00:00"
   },
   {
     "team_1": "Tyrone",
@@ -101,6 +113,7 @@
     "venue": "Venue: O'Neills Healy Park, Omagh",
     "referee": "",
     "game": "football",
-    "url": "/football/gaa-football-all-ireland-senior-championship/tyrone-mayo/2907073"
+    "url": "/football/gaa-football-all-ireland-senior-championship/tyrone-mayo/2907073",
+    "date": "2025-05-31T00:00:00"
   }
 ]

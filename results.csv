@@ -1,19 +1,19 @@
-team_1,team_2,venue,referee,game,url,score_1,score_2
-Waterford,Limerick,"Venue: Walsh Park, Waterford",Referee: Colm Lyons,hurling,/hurling/munster-gaa-hurling-senior-championship/waterford-limerick/2907271,0-22,0-28
-Mayo,Galway,"Venue: Hastings Insurance MacHale Park, Castlebar",Referee: Paddy Neilan,football,/football/connacht-gaa-football-senior-championship/mayo-galway/2907201,1-15,1-17
-Kerry,Clare,Venue: Fitzgerald Stadium,Referee: Noel Mooney,football,/football/munster-gaa-football-senior-championship/kerry-clare/2906909,4-20,0-21
-Armagh,Donegal,"Venue: St. Tiernach's Park, Clones",Referee: Brendan Cawley,football,/football/ulster-gaa-football-senior-championship/armagh-donegal/2906899,0-28,2-23
-Galway,Wexford,Venue: Pearse Stadium,Referee: Thomas Walsh,hurling,/hurling/leinster-gaa-hurling-senior-championship/galway-wexford/2907239,1-29,2-16
-Antrim,Dublin,"Venue: Corrigan Park, Belfast",Referee: Liam Gordon,hurling,/hurling/leinster-gaa-hurling-senior-championship/antrim-dublin/2907237,0-19,3-25
-Kilkenny,Offaly,Venue: UPMC Nowlan Park,Referee: Colm McDonald,hurling,/hurling/leinster-gaa-hurling-senior-championship/kilkenny-offaly/2907235,4-25,2-16
-Clare,Tipperary,"Venue: Zimmer Biomet Páirc Chíosóg, Ennis",Referee: James Owens,hurling,/hurling/munster-gaa-hurling-senior-championship/clare-tipperary/2907269,2-21,4-18
-Meath,Louth,Venue: Páirc an Chrócaigh,Referee: Martin McNally,football,/football/leinster-gaa-football-senior-championship/meath-louth/2907221,1-18,3-14
-Kerry,Roscommon,Venue: Fitzgerald Stadium,Referee: David Coldrick,football,/football/gaa-football-all-ireland-senior-championship/kerry-roscommon/2907091,3-18,0-17
-Galway,Dublin,Venue: Pearse Stadium,Referee: David Gough,football,/football/gaa-football-all-ireland-senior-championship/galway-dublin/2907115,2-14,1-18
-Galway,Antrim,Venue: Pearse Stadium,Referee: Thomas Gleeson,hurling,/hurling/leinster-gaa-hurling-senior-championship/galway-antrim/2907231,6-27,1-14
-Wexford,Offaly,Venue: Chadwicks Wexford Park,Referee: Shane Hynes,hurling,/hurling/leinster-gaa-hurling-senior-championship/wexford-offaly/2907229,2-17,1-17
-Clare,Down,"Venue: Zimmer Biomet Páirc Chíosóg, Ennis",Referee: Paddy Neilan,football,/football/gaa-football-all-ireland-senior-championship/clare-down/2907101,1-16,3-27
-Mayo,Cavan,"Venue: Hastings Insurance MacHale Park, Castlebar",Referee: Paul Faloon,football,/football/gaa-football-all-ireland-senior-championship/mayo-cavan/2907077,1-14,1-17
-Kilkenny,Dublin,Venue: UPMC Nowlan Park,Referee: Michael Kennedy,hurling,/hurling/leinster-gaa-hurling-senior-championship/kilkenny-dublin/2907233,5-19,3-21
-Tipperary,Waterford,"Venue: FBD Semple Stadium, Thurles",Referee: Sean Stack,hurling,/hurling/munster-gaa-hurling-senior-championship/tipperary-waterford/2907263,1-30,1-21
-Limerick,Cork,Venue: TUS Gaelic Grounds,Referee: Liam Gordon,hurling,/hurling/munster-gaa-hurling-senior-championship/limerick-cork/2907265,3-26,1-16
+team_1,team_2,venue,referee,game,url,date,score_1,score_2
+Waterford,Limerick,"Venue: Walsh Park, Waterford",Referee: Colm Lyons,hurling,/hurling/munster-gaa-hurling-senior-championship/waterford-limerick/2907271,2025-05-03T00:00:00,0-22,0-28
+Mayo,Galway,"Venue: Hastings Insurance MacHale Park, Castlebar",Referee: Paddy Neilan,football,/football/connacht-gaa-football-senior-championship/mayo-galway/2907201,2025-05-04T00:00:00,1-15,1-17
+Kerry,Clare,Venue: Fitzgerald Stadium,Referee: Noel Mooney,football,/football/munster-gaa-football-senior-championship/kerry-clare/2906909,2025-05-04T00:00:00,4-20,0-21
+Armagh,Donegal,"Venue: St. Tiernach's Park, Clones",Referee: Brendan Cawley,football,/football/ulster-gaa-football-senior-championship/armagh-donegal/2906899,2025-05-10T00:00:00,0-28,2-23
+Galway,Wexford,Venue: Pearse Stadium,Referee: Thomas Walsh,hurling,/hurling/leinster-gaa-hurling-senior-championship/galway-wexford/2907239,2025-05-10T00:00:00,1-29,2-16
+Antrim,Dublin,"Venue: Corrigan Park, Belfast",Referee: Liam Gordon,hurling,/hurling/leinster-gaa-hurling-senior-championship/antrim-dublin/2907237,2025-05-10T00:00:00,0-19,3-25
+Kilkenny,Offaly,Venue: UPMC Nowlan Park,Referee: Colm McDonald,hurling,/hurling/leinster-gaa-hurling-senior-championship/kilkenny-offaly/2907235,2025-05-10T00:00:00,4-25,2-16
+Clare,Tipperary,"Venue: Zimmer Biomet Páirc Chíosóg, Ennis",Referee: James Owens,hurling,/hurling/munster-gaa-hurling-senior-championship/clare-tipperary/2907269,2025-05-10T00:00:00,2-21,4-18
+Meath,Louth,Venue: Páirc an Chrócaigh,Referee: Martin McNally,football,/football/leinster-gaa-football-senior-championship/meath-louth/2907221,2025-05-11T00:00:00,1-18,3-14
+Kerry,Roscommon,Venue: Fitzgerald Stadium,Referee: David Coldrick,football,/football/gaa-football-all-ireland-senior-championship/kerry-roscommon/2907091,2025-05-17T00:00:00,3-18,0-17
+Galway,Dublin,Venue: Pearse Stadium,Referee: David Gough,football,/football/gaa-football-all-ireland-senior-championship/galway-dublin/2907115,2025-05-17T00:00:00,2-14,1-18
+Galway,Antrim,Venue: Pearse Stadium,Referee: Thomas Gleeson,hurling,/hurling/leinster-gaa-hurling-senior-championship/galway-antrim/2907231,2025-05-17T00:00:00,6-27,1-14
+Wexford,Offaly,Venue: Chadwicks Wexford Park,Referee: Shane Hynes,hurling,/hurling/leinster-gaa-hurling-senior-championship/wexford-offaly/2907229,2025-05-17T00:00:00,2-17,1-17
+Clare,Down,"Venue: Zimmer Biomet Páirc Chíosóg, Ennis",Referee: Paddy Neilan,football,/football/gaa-football-all-ireland-senior-championship/clare-down/2907101,2025-05-18T00:00:00,1-16,3-27
+Mayo,Cavan,"Venue: Hastings Insurance MacHale Park, Castlebar",Referee: Paul Faloon,football,/football/gaa-football-all-ireland-senior-championship/mayo-cavan/2907077,2025-05-18T00:00:00,1-14,1-17
+Kilkenny,Dublin,Venue: UPMC Nowlan Park,Referee: Michael Kennedy,hurling,/hurling/leinster-gaa-hurling-senior-championship/kilkenny-dublin/2907233,2025-05-18T00:00:00,5-19,3-21
+Tipperary,Waterford,"Venue: FBD Semple Stadium, Thurles",Referee: Sean Stack,hurling,/hurling/munster-gaa-hurling-senior-championship/tipperary-waterford/2907263,2025-05-18T00:00:00,1-30,1-21
+Limerick,Cork,Venue: TUS Gaelic Grounds,Referee: Liam Gordon,hurling,/hurling/munster-gaa-hurling-senior-championship/limerick-cork/2907265,2025-05-18T00:00:00,3-26,1-16

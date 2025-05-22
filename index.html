@@ -88,12 +88,14 @@
       allResults = results;
       allFixtures = fixtures;
 
-       // ← Paste your logs here:
+      
     const gamesInResults = [...new Set(allResults.map(m => m.game))];
     const gamesInFixtures = [...new Set(allFixtures.map(m => m.game))];
-    console.log('Games in results:', gamesInResults);
-    console.log('Games in fixtures:', gamesInFixtures);
-    // ↑
+    
+    // ───── Sort by date ─────
+    allResults.sort((a, b) => new Date(b.date) - new Date(a.date));   // newest first
+    allFixtures.sort((a, b) => new Date(a.date) - new Date(b.date));  // earliest first
+
       renderMatches();  // initial render of everything
     });
 
@@ -105,7 +107,7 @@
 
     // 4. renderMatches uses the dropdown value to filter
     function renderMatches() {
-      const filter = gameFilter.value;
+      const filter = gameFilter.value.toLowerCase();
       const resultsEl = document.getElementById('results');
       const fixturesEl = document.getElementById('fixtures');
       resultsEl.innerHTML = '';
@@ -113,25 +115,44 @@
 
       const filteredResults = filter === 'all'
         ? allResults
-        : allResults.filter(m => m.game === filter);
+        : allResults.filter(m => (m.game||'').toLowerCase() === filter);
+
       const filteredFixtures = filter === 'all'
         ? allFixtures
-        : allFixtures.filter(m => m.game === filter);
+        : allFixtures.filter(m => (m.game||'').toLowerCase() === filter);
 
       filteredResults.forEach(m => {
         const li = document.createElement('li');
-        li.innerHTML = `<strong>${m.team_1}</strong> ${m.score_1} vs ${m.team_2} ${m.score_2}
-                        <br><small>${m.venue}<br>${m.referee}</small>`;
+        li.innerHTML = `
+          <div class="match-header">
+            <span class="match-date">${new Date(m.date).toLocaleDateString()}</span>
+            <strong>${m.team_1}</strong> 
+            <span class="score">${m.score_1}</span> vs 
+            <span class="score">${m.score_2}</span> 
+            <strong>${m.team_2}</strong>
+          </div>
+          <div class="match-meta">
+            ${m.venue}<br>${m.referee}
+          </div>
+        `;
         resultsEl.appendChild(li);
       });
 
       filteredFixtures.forEach(m => {
         const li = document.createElement('li');
-        li.innerHTML = `<strong>${m.team_1}</strong> vs <strong>${m.team_2}</strong>
-                        <br><small>${m.venue}<br>${m.referee}</small>`;
+        li.innerHTML = `
+          <div class="match-header">
+            <span class="match-date">${new Date(m.date).toLocaleDateString()}</span>
+            <strong>${m.team_1}</strong> vs <strong>${m.team_2}</strong>
+          </div>
+          <div class="match-meta">
+            ${m.venue}<br>${m.referee}
+          </div>
+        `;
         fixturesEl.appendChild(li);
       });
     }
+
   </script>
 </body>
 </html>

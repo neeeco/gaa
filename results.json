@@ -6,6 +6,7 @@
     "referee": "Referee: Colm Lyons",
     "game": "hurling",
     "url": "/hurling/munster-gaa-hurling-senior-championship/waterford-limerick/2907271",
+    "date": "2025-05-03T00:00:00",
     "score_1": "0-22",
     "score_2": "0-28"
   },
@@ -16,6 +17,7 @@
     "referee": "Referee: Paddy Neilan",
     "game": "football",
     "url": "/football/connacht-gaa-football-senior-championship/mayo-galway/2907201",
+    "date": "2025-05-04T00:00:00",
     "score_1": "1-15",
     "score_2": "1-17"
   },
@@ -26,6 +28,7 @@
     "referee": "Referee: Noel Mooney",
     "game": "football",
     "url": "/football/munster-gaa-football-senior-championship/kerry-clare/2906909",
+    "date": "2025-05-04T00:00:00",
     "score_1": "4-20",
     "score_2": "0-21"
   },
@@ -36,6 +39,7 @@
     "referee": "Referee: Brendan Cawley",
     "game": "football",
     "url": "/football/ulster-gaa-football-senior-championship/armagh-donegal/2906899",
+    "date": "2025-05-10T00:00:00",
     "score_1": "0-28",
     "score_2": "2-23"
   },
@@ -46,6 +50,7 @@
     "referee": "Referee: Thomas Walsh",
     "game": "hurling",
     "url": "/hurling/leinster-gaa-hurling-senior-championship/galway-wexford/2907239",
+    "date": "2025-05-10T00:00:00",
     "score_1": "1-29",
     "score_2": "2-16"
   },
@@ -56,6 +61,7 @@
     "referee": "Referee: Liam Gordon",
     "game": "hurling",
     "url": "/hurling/leinster-gaa-hurling-senior-championship/antrim-dublin/2907237",
+    "date": "2025-05-10T00:00:00",
     "score_1": "0-19",
     "score_2": "3-25"
   },
@@ -66,6 +72,7 @@
     "referee": "Referee: Colm McDonald",
     "game": "hurling",
     "url": "/hurling/leinster-gaa-hurling-senior-championship/kilkenny-offaly/2907235",
+    "date": "2025-05-10T00:00:00",
     "score_1": "4-25",
     "score_2": "2-16"
   },
@@ -76,6 +83,7 @@
     "referee": "Referee: James Owens",
     "game": "hurling",
     "url": "/hurling/munster-gaa-hurling-senior-championship/clare-tipperary/2907269",
+    "date": "2025-05-10T00:00:00",
     "score_1": "2-21",
     "score_2": "4-18"
   },
@@ -86,6 +94,7 @@
     "referee": "Referee: Martin McNally",
     "game": "football",
     "url": "/football/leinster-gaa-football-senior-championship/meath-louth/2907221",
+    "date": "2025-05-11T00:00:00",
     "score_1": "1-18",
     "score_2": "3-14"
   },
@@ -96,6 +105,7 @@
     "referee": "Referee: David Coldrick",
     "game": "football",
     "url": "/football/gaa-football-all-ireland-senior-championship/kerry-roscommon/2907091",
+    "date": "2025-05-17T00:00:00",
     "score_1": "3-18",
     "score_2": "0-17"
   },
@@ -106,6 +116,7 @@
     "referee": "Referee: David Gough",
     "game": "football",
     "url": "/football/gaa-football-all-ireland-senior-championship/galway-dublin/2907115",
+    "date": "2025-05-17T00:00:00",
     "score_1": "2-14",
     "score_2": "1-18"
   },
@@ -116,6 +127,7 @@
     "referee": "Referee: Thomas Gleeson",
     "game": "hurling",
     "url": "/hurling/leinster-gaa-hurling-senior-championship/galway-antrim/2907231",
+    "date": "2025-05-17T00:00:00",
     "score_1": "6-27",
     "score_2": "1-14"
   },
@@ -126,6 +138,7 @@
     "referee": "Referee: Shane Hynes",
     "game": "hurling",
     "url": "/hurling/leinster-gaa-hurling-senior-championship/wexford-offaly/2907229",
+    "date": "2025-05-17T00:00:00",
     "score_1": "2-17",
     "score_2": "1-17"
   },
@@ -136,6 +149,7 @@
     "referee": "Referee: Paddy Neilan",
     "game": "football",
     "url": "/football/gaa-football-all-ireland-senior-championship/clare-down/2907101",
+    "date": "2025-05-18T00:00:00",
     "score_1": "1-16",
     "score_2": "3-27"
   },
@@ -146,6 +160,7 @@
     "referee": "Referee: Paul Faloon",
     "game": "football",
     "url": "/football/gaa-football-all-ireland-senior-championship/mayo-cavan/2907077",
+    "date": "2025-05-18T00:00:00",
     "score_1": "1-14",
     "score_2": "1-17"
   },
@@ -156,6 +171,7 @@
     "referee": "Referee: Michael Kennedy",
     "game": "hurling",
     "url": "/hurling/leinster-gaa-hurling-senior-championship/kilkenny-dublin/2907233",
+    "date": "2025-05-18T00:00:00",
     "score_1": "5-19",
     "score_2": "3-21"
   },
@@ -166,6 +182,7 @@
     "referee": "Referee: Sean Stack",
     "game": "hurling",
     "url": "/hurling/munster-gaa-hurling-senior-championship/tipperary-waterford/2907263",
+    "date": "2025-05-18T00:00:00",
     "score_1": "1-30",
     "score_2": "1-21"
   },
@@ -176,6 +193,7 @@
     "referee": "Referee: Liam Gordon",
     "game": "hurling",
     "url": "/hurling/munster-gaa-hurling-senior-championship/limerick-cork/2907265",
+    "date": "2025-05-18T00:00:00",
     "score_1": "3-26",
     "score_2": "1-16"
   }

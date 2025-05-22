@@ -1,5 +1,6 @@
 from playwright.sync_api import sync_playwright
 from bs4 import BeautifulSoup
+from datetime import datetime
 
 url = "https://www.gaa.ie/fixtures-results"
 
@@ -50,6 +51,15 @@ for f in fixtures_list:
     if "senior" not in href:
         continue
 
+    date_heading = f.find_previous("h2", class_="gar-matches-list__date")
+    raw_date = date_heading.get_text(strip=True) if date_heading else ""
+    try:
+        date_obj = datetime.strptime(f"{raw_date} {datetime.now().year}", "%A %d %B %Y")
+        iso_date = date_obj.isoformat()
+    except:
+        iso_date = ""
+
+
     # Now parse the rest of the fixture
     text = f.get_text(separator=" | ", strip=True)
     parts = [p.strip() for p in text.split("|") if p.strip()]
@@ -76,7 +86,8 @@ for f in fixtures_list:
         "venue": venue,
         "referee": referee,
         "game": game,
-        "url": href
+        "url": href,
+        "date": iso_date      # ← newly added field
     }
 
     if score_1 and score_2 and (score_1 != "0-0" or score_2 != "0-0"):
