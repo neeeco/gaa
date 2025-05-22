@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GAA Fixtures & Results</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 2rem;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: space-between;
+    }
+
+    .section {
+      flex: 1 1 45%;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 1rem;
+      background: #f9f9f9;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 1rem;
+      padding: 0.5rem;
+      background: #fff;
+      border-radius: 4px;
+      box-shadow: 0 0 4px rgba(0,0,0,0.05);
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>GAA Fixtures & Results</h1>
+
+  <div class="container">
+    <div class="section">
+      <h2>Recent Results</h2>
+      <ul id="results"></ul>
+    </div>
+
+    <div class="section">
+      <h2>Upcoming Fixtures</h2>
+      <ul id="fixtures"></ul>
+    </div>
+  </div>
+
+  <script>
+    fetch('results.json')
+      .then(res => res.json())
+      .then(data => {
+        const resultsEl = document.getElementById('results');
+        data.forEach(item => {
+          resultsEl.innerHTML += `<li>
+            <strong>${item.team_1}</strong> ${item.score_1} - ${item.score_2} <strong>${item.team_2}</strong><br>
+            <small>${item.venue}<br>${item.referee}</small>
+          </li>`;
+        });
+      });
+
+    fetch('fixtures.json')
+      .then(res => res.json())
+      .then(data => {
+        const fixturesEl = document.getElementById('fixtures');
+        data.forEach(item => {
+          fixturesEl.innerHTML += `<li>
+            <strong>${item.team_1}</strong> vs <strong>${item.team_2}</strong><br>
+            <small>${item.venue}<br>${item.referee}</small>
+          </li>`;
+        });
+      });
+  </script>
+</body>
+</html>

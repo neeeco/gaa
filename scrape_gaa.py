@@ -22,83 +22,109 @@ soup = BeautifulSoup(html, "html.parser")
 print("Page title:", soup.title.string)
 
 # Example: Find fixture containers (adjust selector based on actual page structure)
-fixtures = soup.select("div.gar-match-item")  # Change this if needed
+# ... your playwright code above, up to parsing soup ...
 
-print(f"Found {len(fixtures)} fixtures")
+fixtures_list = soup.find_all("div", class_="gar-match-item")
 
-for f in fixtures[:5]:  # print first 5 fixtures
+print(f"Found {len(fixtures_list)} fixtures")
+
+# Preview the first few fixtures
+for f in fixtures_list[:5]:
     print(f.get_text(separator=" | ", strip=True))
 
-for f in fixtures[:5]:
+results = []
+fixtures = []  # Initialize empty lists before use
+
+for f in fixtures_list:
     text = f.get_text(separator=" | ", strip=True)
-    parts = text.split("|")
-    print(parts)  # This will print out the split list so you can see the structure
-
-    # This is just an example — adapt to the actual format
-    print({
-        "team_1": parts[0].strip(),
-        "score_1": parts[1].strip(),
-        "team_2": parts[-1].strip(),
-        "venue": next((p.strip() for p in parts if "Venue:" in p), ""),
-        "referee": next((p.strip() for p in parts if "Referee:" in p), ""),
-    })
-
-fixtures_data = []
-
-for f in fixtures:
-    parts = f.get_text(separator=" | ", strip=True).split("|")
-    parts = [p.strip() for p in parts if p.strip()]  # clean empty strings
-
+    parts = [p.strip() for p in text.split("|") if p.strip()]
+    
     try:
-        team_1 = parts[0]
-        goals_1 = parts[1]
-        points_1 = parts[3]
-        score_1 = f"{goals_1}-{points_1}"
-
-        goals_2 = parts[4]
-        points_2 = parts[6]
-        score_2 = f"{goals_2}-{points_2}"
-
-        team_2 = parts[-1]
-
-        venue = next((p for p in parts if "Venue:" in p), "")
-        referee = next((p for p in parts if "Referee:" in p), "")
-
-        fixture = {
+        # Extract venue and referee by scanning parts
+        venue = next((p for p in parts if p.startswith("Venue:")), "")
+        referee = next((p for p in parts if p.startswith("Referee:")), "")
+        
+        # Remove venue and referee from parts to simplify
+        parts_cleaned = [p for p in parts if not (p.startswith("Venue:") or p.startswith("Referee:"))]
+        
+        # The last item is team_2
+        team_2 = parts_cleaned[-1]
+        
+        # The first item is team_1
+        team_1 = parts_cleaned[0]
+        
+        # Find scores by looking for a pattern: number - number somewhere between team names
+        # The scores should be consecutive parts: goals, "-", points for team 1 and team 2
+        
+        # We'll try to find first score pattern (team 1)
+        score_1 = ""
+        score_2 = ""
+        for i in range(1, len(parts_cleaned)-1):
+            if parts_cleaned[i] == '-' and i-1 >= 0 and i+1 < len(parts_cleaned):
+                # Check if parts before and after '-' are digits
+                if parts_cleaned[i-1].isdigit() and parts_cleaned[i+1].isdigit():
+                    # First occurrence -> score_1
+                    if not score_1:
+                        score_1 = parts_cleaned[i-1] + "-" + parts_cleaned[i+1]
+                    # Second occurrence -> score_2
+                    elif not score_2:
+                        score_2 = parts_cleaned[i-1] + "-" + parts_cleaned[i+1]
+        
+        fixture_data = {
             "team_1": team_1,
-            "score_1": score_1,
             "team_2": team_2,
-            "score_2": score_2,
             "venue": venue,
             "referee": referee,
         }
-
-        fixtures_data.append(fixture)
-
+        if score_1 and score_2:
+            fixture_data["score_1"] = score_1
+            fixture_data["score_2"] = score_2
+        
+        # Decide results vs fixtures based on scores (or absence)
+        if score_1 and score_2 and (score_1 != "0-0" or score_2 != "0-0"):
+            results.append(fixture_data)
+        else:
+            fixtures.append(fixture_data)
+    
     except Exception as e:
-        print("Skipping fixture due to unexpected format:", parts)
+        print("Skipping fixture due to unexpected format:", parts, "| Error:", e)
+
 
 
 
 # Save JSON
+# Save JSON
 import json
-with open("website/fixtures.json", "w") as f:
-    json.dump(fixtures_data, f, indent=2)
+with open("results.json", "w") as f:
+    json.dump(results, f, indent=2)
+
+with open("fixtures.json", "w") as f:
+    json.dump(fixtures, f, indent=2)
+
+
 
 
 import json
 
 # your scraping and parsing code here, then:
 
-print(json.dumps(fixtures_data, indent=2))
+print("Results:\n", json.dumps(results, indent=2))
+print("Fixtures:\n", json.dumps(fixtures, indent=2))
 
 import csv
 
-keys = fixtures_data[0].keys()
+if results:  # check if not empty
+    keys = results[0].keys()
+    with open('results.csv', 'w', newline='') as f:
+        dict_writer = csv.DictWriter(f, keys)
+        dict_writer.writeheader()
+        dict_writer.writerows(results)
 
-with open('fixtures.csv', 'w', newline='') as f:
-    dict_writer = csv.DictWriter(f, keys)
-    dict_writer.writeheader()
-    dict_writer.writerows(fixtures_data)
+if fixtures:  # check if not empty
+    keys = fixtures[0].keys()
+    with open('fixtures.csv', 'w', newline='') as f:
+        dict_writer = csv.DictWriter(f, keys)
+        dict_writer.writeheader()
+        dict_writer.writerows(fixtures)
 
 

@@ -1,0 +1,200 @@
+[
+  {
+    "team_1": "Meath",
+    "team_2": "Cork",
+    "venue": "Venue: P\u00e1irc Tailteann, Navan",
+    "referee": "Referee: Noel Mooney"
+  },
+  {
+    "team_1": "Louth",
+    "team_2": "Monaghan",
+    "venue": "Venue: Cedral St Conleth's Newbridge",
+    "referee": "Referee: Brendan Cawley"
+  },
+  {
+    "team_1": "Armagh",
+    "team_2": "Derry",
+    "venue": "Venue: BOX-IT Athletic Grounds, Armagh",
+    "referee": "Referee: Sean Hurson"
+  },
+  {
+    "team_1": "Donegal",
+    "team_2": "Tyrone",
+    "venue": "Venue: Ballybofey",
+    "referee": "Referee: Martin McNally"
+  },
+  {
+    "team_1": "Monaghan",
+    "team_2": "New York",
+    "venue": "Venue: TEG Cusack Park, Mullingar",
+    "referee": "Referee: Alan Tierney"
+  },
+  {
+    "team_1": "Clare",
+    "team_2": "Dublin",
+    "venue": "Venue: FBD Semple Stadium, Thurles",
+    "referee": ""
+  },
+  {
+    "team_1": "Wexford",
+    "team_2": "Limerick",
+    "venue": "Venue: FBD Semple Stadium, Thurles",
+    "referee": "Referee: Ciaran O Donovan"
+  },
+  {
+    "team_1": "Monaghan",
+    "team_2": "Meath",
+    "venue": "Venue: Carrickmacross",
+    "referee": "Referee: Margaret Farrelly"
+  },
+  {
+    "team_1": "Derry",
+    "team_2": "Donegal",
+    "venue": "Venue: Celtic Park",
+    "referee": ""
+  },
+  {
+    "team_1": "Armagh",
+    "team_2": "Dublin",
+    "venue": "Venue: Crossmaglen",
+    "referee": "Referee: Christopher Brady"
+  },
+  {
+    "team_1": "Carlow",
+    "team_2": "Laois",
+    "venue": "Venue: Netwatch Cullen Park",
+    "referee": "Referee: Caymon Flynn"
+  },
+  {
+    "team_1": "Kildare",
+    "team_2": "Down",
+    "venue": "Venue: Cedral St Conleth's Newbridge",
+    "referee": "Referee: Brian Keon"
+  },
+  {
+    "team_1": "Kerry",
+    "team_2": "Westmeath",
+    "venue": "Venue: Austin Stack Park",
+    "referee": "Referee: Niall Malone"
+  },
+  {
+    "team_1": "Offaly",
+    "team_2": "Antrim",
+    "venue": "Venue: Glenisk O'Connor Park",
+    "referee": "Referee: Michael Kennedy"
+  },
+  {
+    "team_1": "Dublin",
+    "team_2": "Galway",
+    "venue": "Venue: Parnell Park",
+    "referee": "Referee: Colm Lyons"
+  },
+  {
+    "team_1": "Wexford",
+    "team_2": "Kilkenny",
+    "venue": "Venue: Chadwicks Wexford Park",
+    "referee": "Referee: Sean Stack"
+  },
+  {
+    "team_1": "Cork",
+    "team_2": "Waterford",
+    "venue": "Venue: SuperValu P\u00e1irc U\u00ed Chaoimh, Cork",
+    "referee": "Referee: Johnny Murphy"
+  },
+  {
+    "team_1": "Limerick",
+    "team_2": "Clare",
+    "venue": "Venue: TUS Gaelic Grounds",
+    "referee": "Referee: Thomas Walsh"
+  },
+  {
+    "team_1": "Kildare",
+    "team_2": "Leitrim",
+    "venue": "Venue: Manguard Park, Hawkfield, Kildare",
+    "referee": "Referee: Ian Howley"
+  },
+  {
+    "team_1": "Longford",
+    "team_2": "Sligo",
+    "venue": "Venue: Annaduff",
+    "referee": "Referee: Shane Corcoran"
+  },
+  {
+    "team_1": "Wicklow",
+    "team_2": "Laois",
+    "venue": "Venue: Fenagh Netwatch Training Centre",
+    "referee": "Referee: Enda Kenny"
+  },
+  {
+    "team_1": "Louth",
+    "team_2": "Tyrone",
+    "venue": "Venue: BOX-IT Athletic Grounds, Armagh",
+    "referee": ""
+  },
+  {
+    "team_1": "Cork",
+    "team_2": "Kerry",
+    "venue": "Venue: SuperValu P\u00e1irc U\u00ed Chaoimh, Cork",
+    "referee": ""
+  },
+  {
+    "team_1": "Roscommon",
+    "team_2": "Meath",
+    "venue": "Venue: King & Moffatt Dr Hyde Park, Roscommon",
+    "referee": ""
+  },
+  {
+    "team_1": "Down",
+    "team_2": "Louth",
+    "venue": "Venue: P\u00e1irc Esler, Newry",
+    "referee": ""
+  },
+  {
+    "team_1": "Tyrone",
+    "team_2": "Mayo",
+    "venue": "Venue: O'Neills Healy Park, Omagh",
+    "referee": ""
+  },
+  {
+    "team_1": "Derry",
+    "team_2": "London",
+    "venue": "Venue: P\u00e1irc an Chr\u00f3caigh",
+    "referee": ""
+  },
+  {
+    "team_1": "Mayo",
+    "team_2": "Roscommon",
+    "venue": "Venue: P\u00e1irc an Chr\u00f3caigh",
+    "referee": ""
+  },
+  {
+    "team_1": "Cavan",
+    "team_2": "Semi-Final Winner",
+    "venue": "Venue: P\u00e1irc an Chr\u00f3caigh",
+    "referee": ""
+  },
+  {
+    "team_1": "Kilkenny",
+    "team_2": "Tipperary",
+    "venue": "Venue: TBC",
+    "referee": ""
+  },
+  {
+    "team_1": "Westmeath",
+    "team_2": "Limerick",
+    "venue": "Venue: Laois Hire O'Moore Park, Portlaoise",
+    "referee": ""
+  },
+  {
+    "team_1": "Wicklow",
+    "team_2": "Waterford",
+    "venue": "Venue: Chadwicks Wexford Park",
+    "referee": ""
+  },
+  {
+    "team_1": "Offaly",
+    "team_2": "Laois",
+    "venue": "Venue: Cedral St Conleth's Newbridge",
+    "referee": ""
+  }
+]
