@@ -70,15 +70,30 @@ for f in fixtures_list:
                     elif not score_2:
                         score_2 = parts_cleaned[i-1] + "-" + parts_cleaned[i+1]
         
+        # *** NEW: infer from link URL ***
+        link = f.find("a", href=True)
+        href = link["href"] if link else ""
+        if "/hurling/" in href:
+            game = "Hurling"
+        elif "/football/" in href:
+            game = "Football"
+        else:
+            game = "unknown"
+
+
         fixture_data = {
             "team_1": team_1,
             "team_2": team_2,
             "venue": venue,
             "referee": referee,
+            "game": game,    # ← newly added
         }
         if score_1 and score_2:
             fixture_data["score_1"] = score_1
             fixture_data["score_2"] = score_2
+
+
+
         
         # Decide results vs fixtures based on scores (or absence)
         if score_1 and score_2 and (score_1 != "0-0" or score_2 != "0-0"):

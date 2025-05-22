@@ -1,34 +1,34 @@
-team_1,team_2,venue,referee
-Meath,Cork,"Venue: Páirc Tailteann, Navan",Referee: Noel Mooney
-Louth,Monaghan,Venue: Cedral St Conleth's Newbridge,Referee: Brendan Cawley
-Armagh,Derry,"Venue: BOX-IT Athletic Grounds, Armagh",Referee: Sean Hurson
-Donegal,Tyrone,Venue: Ballybofey,Referee: Martin McNally
-Monaghan,New York,"Venue: TEG Cusack Park, Mullingar",Referee: Alan Tierney
-Clare,Dublin,"Venue: FBD Semple Stadium, Thurles",
-Wexford,Limerick,"Venue: FBD Semple Stadium, Thurles",Referee: Ciaran O Donovan
-Monaghan,Meath,Venue: Carrickmacross,Referee: Margaret Farrelly
-Derry,Donegal,Venue: Celtic Park,
-Armagh,Dublin,Venue: Crossmaglen,Referee: Christopher Brady
-Carlow,Laois,Venue: Netwatch Cullen Park,Referee: Caymon Flynn
-Kildare,Down,Venue: Cedral St Conleth's Newbridge,Referee: Brian Keon
-Kerry,Westmeath,Venue: Austin Stack Park,Referee: Niall Malone
-Offaly,Antrim,Venue: Glenisk O'Connor Park,Referee: Michael Kennedy
-Dublin,Galway,Venue: Parnell Park,Referee: Colm Lyons
-Wexford,Kilkenny,Venue: Chadwicks Wexford Park,Referee: Sean Stack
-Cork,Waterford,"Venue: SuperValu Páirc Uí Chaoimh, Cork",Referee: Johnny Murphy
-Limerick,Clare,Venue: TUS Gaelic Grounds,Referee: Thomas Walsh
-Kildare,Leitrim,"Venue: Manguard Park, Hawkfield, Kildare",Referee: Ian Howley
-Longford,Sligo,Venue: Annaduff,Referee: Shane Corcoran
-Wicklow,Laois,Venue: Fenagh Netwatch Training Centre,Referee: Enda Kenny
-Louth,Tyrone,"Venue: BOX-IT Athletic Grounds, Armagh",
-Cork,Kerry,"Venue: SuperValu Páirc Uí Chaoimh, Cork",
-Roscommon,Meath,"Venue: King & Moffatt Dr Hyde Park, Roscommon",
-Down,Louth,"Venue: Páirc Esler, Newry",
-Tyrone,Mayo,"Venue: O'Neills Healy Park, Omagh",
-Derry,London,Venue: Páirc an Chrócaigh,
-Mayo,Roscommon,Venue: Páirc an Chrócaigh,
-Cavan,Semi-Final Winner,Venue: Páirc an Chrócaigh,
-Kilkenny,Tipperary,Venue: TBC,
-Westmeath,Limerick,"Venue: Laois Hire O'Moore Park, Portlaoise",
-Wicklow,Waterford,Venue: Chadwicks Wexford Park,
-Offaly,Laois,Venue: Cedral St Conleth's Newbridge,
+team_1,team_2,venue,referee,game
+Meath,Cork,"Venue: Páirc Tailteann, Navan",Referee: Noel Mooney,football
+Louth,Monaghan,Venue: Cedral St Conleth's Newbridge,Referee: Brendan Cawley,football
+Armagh,Derry,"Venue: BOX-IT Athletic Grounds, Armagh",Referee: Sean Hurson,football
+Donegal,Tyrone,Venue: Ballybofey,Referee: Martin McNally,football
+Monaghan,New York,"Venue: TEG Cusack Park, Mullingar",Referee: Alan Tierney,hurling
+Clare,Dublin,"Venue: FBD Semple Stadium, Thurles",,hurling
+Wexford,Limerick,"Venue: FBD Semple Stadium, Thurles",Referee: Ciaran O Donovan,hurling
+Monaghan,Meath,Venue: Carrickmacross,Referee: Margaret Farrelly,football
+Derry,Donegal,Venue: Celtic Park,,football
+Armagh,Dublin,Venue: Crossmaglen,Referee: Christopher Brady,football
+Carlow,Laois,Venue: Netwatch Cullen Park,Referee: Caymon Flynn,hurling
+Kildare,Down,Venue: Cedral St Conleth's Newbridge,Referee: Brian Keon,hurling
+Kerry,Westmeath,Venue: Austin Stack Park,Referee: Niall Malone,hurling
+Offaly,Antrim,Venue: Glenisk O'Connor Park,Referee: Michael Kennedy,hurling
+Dublin,Galway,Venue: Parnell Park,Referee: Colm Lyons,hurling
+Wexford,Kilkenny,Venue: Chadwicks Wexford Park,Referee: Sean Stack,hurling
+Cork,Waterford,"Venue: SuperValu Páirc Uí Chaoimh, Cork",Referee: Johnny Murphy,hurling
+Limerick,Clare,Venue: TUS Gaelic Grounds,Referee: Thomas Walsh,hurling
+Kildare,Leitrim,"Venue: Manguard Park, Hawkfield, Kildare",Referee: Ian Howley,football
+Longford,Sligo,Venue: Annaduff,Referee: Shane Corcoran,football
+Wicklow,Laois,Venue: Fenagh Netwatch Training Centre,Referee: Enda Kenny,football
+Louth,Tyrone,"Venue: BOX-IT Athletic Grounds, Armagh",,football
+Cork,Kerry,"Venue: SuperValu Páirc Uí Chaoimh, Cork",,football
+Roscommon,Meath,"Venue: King & Moffatt Dr Hyde Park, Roscommon",,football
+Down,Louth,"Venue: Páirc Esler, Newry",,football
+Tyrone,Mayo,"Venue: O'Neills Healy Park, Omagh",,football
+Derry,London,Venue: Páirc an Chrócaigh,,hurling
+Mayo,Roscommon,Venue: Páirc an Chrócaigh,,hurling
+Cavan,Semi-Final Winner,Venue: Páirc an Chrócaigh,,hurling
+Kilkenny,Tipperary,Venue: TBC,,hurling
+Westmeath,Limerick,"Venue: Laois Hire O'Moore Park, Portlaoise",,football
+Wicklow,Waterford,Venue: Chadwicks Wexford Park,,football
+Offaly,Laois,Venue: Cedral St Conleth's Newbridge,,football
