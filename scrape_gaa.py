@@ -46,23 +46,38 @@ for f in fixtures[:5]:
 fixtures_data = []
 
 for f in fixtures:
-    text = f.get_text(separator=" | ", strip=True)
-    parts = text.split("|")
+    parts = f.get_text(separator=" | ", strip=True).split("|")
+    parts = [p.strip() for p in parts if p.strip()]  # clean empty strings
 
     try:
+        team_1 = parts[0]
+        goals_1 = parts[1]
+        points_1 = parts[3]
+        score_1 = f"{goals_1}-{points_1}"
+
+        goals_2 = parts[4]
+        points_2 = parts[6]
+        score_2 = f"{goals_2}-{points_2}"
+
+        team_2 = parts[-1]
+
+        venue = next((p for p in parts if "Venue:" in p), "")
+        referee = next((p for p in parts if "Referee:" in p), "")
+
         fixture = {
-            "team_1": parts[0].strip(),
-            "goals_1": parts[1].strip(),
-            "points_1": parts[3].strip(),
-            "team_2": parts[-1].strip(),
-            "goals_2": parts[4].strip(),
-            "points_2": parts[6].strip(),
-            "venue": next((p.strip() for p in parts if "Venue:" in p), ""),
-            "referee": next((p.strip() for p in parts if "Referee:" in p), "")
+            "team_1": team_1,
+            "score_1": score_1,
+            "team_2": team_2,
+            "score_2": score_2,
+            "venue": venue,
+            "referee": referee,
         }
+
         fixtures_data.append(fixture)
-    except IndexError:
+
+    except Exception as e:
         print("Skipping fixture due to unexpected format:", parts)
+
 
 
 # Save JSON
@@ -87,7 +102,3 @@ with open('fixtures.csv', 'w', newline='') as f:
     dict_writer.writerows(fixtures_data)
 
 
-import json
-
-with open("fixtures.json", "w") as f:
-    json.dump(fixtures_data, f)
