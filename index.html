@@ -6,55 +6,78 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>GAA Fixtures & Results</title>
   <style>
-    body {
-      font-family: sans-serif;
-      margin: 2rem;
-    }
+  body {
+    font-family: system-ui, sans-serif;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
 
-    h1 {
-      text-align: center;
-      margin-bottom: 2rem;
-    }
+  .container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
 
-    .container {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 2rem;
-      justify-content: space-between;
-    }
+  h1, h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
 
-    .section {
-      flex: 1 1 45%;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      padding: 1rem;
-      background: #f9f9f9;
-    }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
 
-    h2 {
-      text-align: center;
-      margin-bottom: 1rem;
-    }
+  li {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem 0;
+    background: #fafafa;
+    transition: box-shadow 0.2s ease;
+  }
 
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
+  li:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
 
-    li {
-      margin-bottom: 1rem;
-      padding: 0.5rem;
-      background: #fff;
-      border-radius: 4px;
-      box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
-    }
+  .match-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
 
-    @media (max-width: 768px) {
-      .container {
-        flex-direction: column;
-      }
-    }
-  </style>
+  .match-date {
+    font-size: 0.9rem;
+    color: #666;
+    margin-right: 1rem;
+    flex-shrink: 0;
+  }
+
+  .match-meta {
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    color: #555;
+  }
+
+  select {
+    display: block;
+    margin: 0 auto 2rem auto;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+</style>
+
 </head>
 
 <body>
